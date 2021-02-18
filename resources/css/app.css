@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap);:root {
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap");
+:root {
   --purple: #463593;
   --pink: #db00b3;
   --gradient: linear-gradient(100deg, var(--purple), var(--pink));
