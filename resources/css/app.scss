@@ -1,0 +1,125 @@
+:root {
+    --purple: #463593;
+    --pink: #db00b3;
+    --gradient: linear-gradient(100deg, var(--purple), var(--pink));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+//Small screens and down
+@media (max-width: 992px) {
+    nav {
+        background-color: rgba(0, 0, 0, 0.755);
+        transition: all 0.5s ease-in-out;
+
+        ul {
+            display: flex;
+            margin-left: auto;
+            align-items: center;
+
+            li {
+                list-style-type: none;
+                margin: 10px 0px !important;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 20px !important;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    nav {
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: transparent;
+        transition: all 0.5s ease-in-out;
+
+        ul {
+            display: flex;
+            margin-left: auto;
+
+            li {
+                list-style-type: none;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding: 10px 20px !important;
+
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav-item {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    position: relative;
+    margin: 0px 10px;
+
+    &:after {
+        content: "";
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: white;
+        transform: scaleX(0);
+        transition: transform 250ms ease-in-out;
+    }
+
+    &:hover::after {
+        transform: scaleX(1);
+    }
+}
+
+.nav__button {
+    background-color: #535353;
+    border-radius: 10px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.section-one {
+    display: flex;
+    align-items: center;
+    background-image: var(--gradient);
+    height: 100vh;
+
+    h1 {
+        color: var(--pink);
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.755);
+}
