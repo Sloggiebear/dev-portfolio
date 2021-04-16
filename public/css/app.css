@@ -1,14 +1,25 @@
-:root {
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap);@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap);:root {
   --purple: #463593;
   --pink: #db00b3;
   --gradient: linear-gradient(100deg, var(--purple), var(--pink));
+  --fontbody: "Source Sans Pro", sans-serif;
+  --fontheading: "Roboto Slab", serif;
 }
 
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: var(--fontbody);
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--fontheading);
 }
 
 @media (max-width: 992px) {
@@ -92,25 +103,76 @@
   border-radius: 10px;
 }
 
-.logo {
+.brand-text {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
+  font-weight: 200;
+  pointer-events: none;
+  position: relative;
+  left: 0px;
+  transition: all ease-in-out 250ms;
+  width: 400px;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+}
+
+.invisible {
+  opacity: 0;
+  position: relative;
+  left: -10px;
 }
 
 .section-one {
-  display: flex;
-  align-items: center;
   background-image: var(--gradient);
   height: 100vh;
+  min-height: 300px;
 }
 
-.section-one h1 {
+.subhead {
   color: var(--pink);
+  font: var(--fontbody);
   text-transform: uppercase;
   font-size: 1.2rem;
+  letter-spacing: 0.2rem;
 }
 
 .dark {
   background-color: rgba(0, 0, 0, 0.755);
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+}
+
+footer p {
+  font-size: 2rem;
+  font-family: var(--fontheading);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.subfooter {
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #3f3f3f;
+  color: #838383;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 8px;
+}
+
+.scale {
+  transition: all ease-in-out 0.5s;
+  transform: scale(0.8);
+  filter: grayscale(1);
+}
+
+.scale:hover {
+  transform: scale(1);
+  filter: grayscale(0);
 }

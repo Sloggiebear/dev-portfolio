@@ -19388,13 +19388,24 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ../../resources/js/bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ../../resources/js/bootstrap */ "./resources/js/bootstrap.js"); //Change nav style on scroll
 
-console.log("bitch"); //Change nav style on scroll
 
 window.addEventListener('scroll', function (event) {
   var nav = document.querySelector('nav');
+  var button = document.getElementById('start');
   window.scrollY >= 50 ? nav.classList.add('dark') : nav.classList.remove('dark');
+  window.scrollY >= 50 ? button.classList.add('btn-outline-light') : button.classList.remove('btn-outline-light');
+  window.scrollY <= 50 ? button.classList.add('btn-dark') : button.classList.remove('btn-dark');
+}); //Show logo text on mouseover
+
+var brandimage = document.getElementById("brand-image");
+var brandtext = document.getElementById("brand-text");
+brandimage.addEventListener('mouseover', function (event) {
+  brandtext.classList.toggle('invisible');
+});
+brandimage.addEventListener('mouseout', function (event) {
+  brandtext.classList.toggle('invisible');
 });
 
 /***/ }),
