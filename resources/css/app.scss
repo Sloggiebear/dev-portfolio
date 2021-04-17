@@ -135,10 +135,27 @@ h6 {
     left: -10px;
 }
 
-.section-one {
+.section-header {
     background-image: var(--gradient);
     height: 100vh;
     min-height: 300px;
+    clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
+}
+
+.section-services {
+    background-color: rgb(233, 233, 233);
+    background-image: url("/img/amber-and-emerald-logo.svg");
+    background-repeat: no-repeat;
+    background-size: 600px;
+    clip-path: polygon(0 28%, 100% 0, 100% 76%, 0% 100%);
+    height: 100%;
+    width: 100%;
+    overflow: visible;
+    padding: 50px 0px;
+}
+
+p {
+    font-size: 1.3rem;
 }
 
 .subhead {
@@ -186,5 +203,37 @@ footer {
     &:hover {
         transform: scale(1);
         filter: grayscale(0);
+    }
+}
+
+.portfolio-item {
+    h3 {
+        font-size: 2.2rem;
+    }
+
+    .tech {
+        span {
+            display: inline-block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            color: grey;
+            letter-spacing: 0.2rem;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        li {
+            padding: 5px 20px;
+            background-color: rgb(233, 233, 233);
+            color: grey;
+            margin-right: 10px;
+        }
     }
 }
