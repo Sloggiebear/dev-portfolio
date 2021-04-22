@@ -19393,7 +19393,7 @@ __webpack_require__(/*! ../../resources/js/bootstrap */ "./resources/js/bootstra
 
 window.addEventListener('scroll', function (event) {
   var nav = document.querySelector('nav');
-  var button = document.getElementById('start');
+  var button = document.getElementById('start-button');
   window.scrollY >= 50 ? nav.classList.add('dark') : nav.classList.remove('dark');
   window.scrollY >= 50 ? button.classList.add('btn-outline-light') : button.classList.remove('btn-outline-light');
   window.scrollY <= 50 ? button.classList.add('btn-dark') : button.classList.remove('btn-dark');
@@ -19406,7 +19406,24 @@ brandimage.addEventListener('mouseover', function (event) {
 });
 brandimage.addEventListener('mouseout', function (event) {
   brandtext.classList.toggle('invisible');
-});
+}); // Draw the wordpress logo when the section intersects
+
+var el = document.querySelector('#wordpress-drawing'); // console.log(el);
+
+var options = {
+  root: null,
+  threshold: 0,
+  rootMargin: "-100px"
+};
+var observer = new IntersectionObserver(function (entries, observer) {
+  entries.forEach(function (entry) {
+    entry.target.classList.toggle('draw-in');
+  });
+}, options);
+observer.observe(el); // function draw(id) {
+//     let el = document.querySelector(id);
+//     el.classList.toggle('draw-in');
+// }
 
 /***/ }),
 
