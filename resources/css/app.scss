@@ -25,6 +25,15 @@ h6 {
     font-family: var(--fontheading);
 }
 
+p a {
+    color: grey;
+    text-decoration: none;
+    border-bottom: 1px dotted #dddddd;
+
+    &:hover {
+        color: var(--pink);
+    }
+}
 //Small screens and down
 @media (max-width: 992px) {
     nav {
@@ -158,11 +167,16 @@ h6 {
     height: 100vh;
     min-height: 800px;
     clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
+    transition: all ease-in-out 0.7s;
 
     p {
         font-weight: 100;
         font-size: 1.9rem;
     }
+}
+
+.straight-clip {
+    clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%, 0% 50%);
 }
 
 .section-services {
@@ -230,6 +244,59 @@ footer {
     }
 }
 
+.flexpower {
+    position: relative;
+    overflow: hidden;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+        transition: transform ease 0.5s;
+        transform: scale(1);
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .bg-object {
+        display: block;
+        height: 100%;
+        width: 100%;
+        clip-path: polygon(
+            100% 0%,
+            75% 50%,
+            100% 100%,
+            25% 100%,
+            0% 50%,
+            25% 0%
+        );
+
+        background-color: rgb(125, 221, 250);
+        background-image: url("/img/sky.jpg");
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+        background-size: cover;
+        background-position: left;
+        animation: skyfall infinite alternate-reverse 30s;
+        opacity: 0.7;
+
+        @keyframes skyfall {
+            0% {
+                background-position: left;
+            }
+            100% {
+                background-position: right;
+            }
+        }
+    }
+}
+
 .portfolio-item {
     h3 {
         font-size: 2.2rem;
@@ -251,13 +318,13 @@ footer {
             flex-wrap: wrap;
             list-style: none;
             padding-left: 0px;
+            margin-bottom: 15px;
         }
 
         li {
-            padding: 5px 20px;
-            background-color: rgb(233, 233, 233);
+            padding: 2px 15px;
             color: grey;
-            margin: 0px 10px 10px 0px;
+            border-left: 1px solid rgb(211, 211, 211);
         }
     }
 }

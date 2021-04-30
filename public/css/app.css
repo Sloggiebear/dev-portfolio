@@ -22,6 +22,16 @@ h6 {
   font-family: var(--fontheading);
 }
 
+p a {
+  color: grey;
+  text-decoration: none;
+  border-bottom: 1px dotted #dddddd;
+}
+
+p a:hover {
+  color: var(--pink);
+}
+
 @media (max-width: 992px) {
   nav {
     background-color: rgba(0, 0, 0, 0.755);
@@ -146,11 +156,17 @@ h6 {
   min-height: 800px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
           clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
+  transition: all ease-in-out 0.7s;
 }
 
 .section-header p {
   font-weight: 100;
   font-size: 1.9rem;
+}
+
+.straight-clip {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%, 0% 50%);
+          clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%, 0% 50%);
 }
 
 .section-services {
@@ -219,6 +235,61 @@ footer a {
   filter: grayscale(0);
 }
 
+.flexpower {
+  position: relative;
+  overflow: hidden;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexpower img {
+  transition: transform ease 0.5s;
+  transform: scale(1);
+}
+
+.flexpower img:hover {
+  transform: scale(1.1);
+}
+
+.flexpower .bg-object {
+  display: block;
+  height: 100%;
+  width: 100%;
+  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+          clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  background-color: #7dddfa;
+  background-image: url("/img/sky.jpg");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  background-size: cover;
+  background-position: left;
+  animation: skyfall infinite alternate-reverse 30s;
+  opacity: 0.7;
+}
+
+@-webkit-keyframes skyfall {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+@keyframes skyfall {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
 .portfolio-item h3 {
   font-size: 2.2rem;
 }
@@ -238,13 +309,13 @@ footer a {
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0px;
+  margin-bottom: 15px;
 }
 
 .portfolio-item .tech li {
-  padding: 5px 20px;
-  background-color: #e9e9e9;
+  padding: 2px 15px;
   color: grey;
-  margin: 0px 10px 10px 0px;
+  border-left: 1px solid lightgray;
 }
 
 .draw-out {
