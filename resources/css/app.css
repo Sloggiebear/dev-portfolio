@@ -255,7 +255,6 @@ footer a {
   height: 100%;
   width: 100%;
   clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  background-color: #7dddfa;
   background-image: url("/img/sky.jpg");
   position: absolute;
   top: 50%;
@@ -275,6 +274,27 @@ footer a {
   100% {
     background-position: right;
   }
+}
+
+.gradient {
+  overflow: hidden;
+  position: relative;
+}
+
+.gradient img {
+  max-height: 500px;
+}
+
+.gradient .bg-object {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#dddddd, #ffb3c1);
+  z-index: -1;
+  clip-path: polygon(75% 0, 0% 66%, 100% 100%);
 }
 
 .portfolio-item h3 {

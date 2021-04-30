@@ -273,8 +273,6 @@ footer {
             0% 50%,
             25% 0%
         );
-
-        background-color: rgb(125, 221, 250);
         background-image: url("/img/sky.jpg");
         position: absolute;
         top: 50%;
@@ -294,6 +292,30 @@ footer {
                 background-position: right;
             }
         }
+    }
+}
+
+.gradient {
+    overflow: hidden;
+    position: relative;
+
+    img {
+        max-height: 500px;
+        // position: absolute;
+        // transform: rotate(-10deg);
+        // top: 0px;
+    }
+
+    .bg-object {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0px;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient(#dddddd, #ffb3c1);
+        z-index: -1;
+        clip-path: polygon(75% 0, 0% 66%, 100% 100%);
     }
 }
 

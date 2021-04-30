@@ -141,7 +141,13 @@
                   </ul>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 gradient">
+              <picture>
+                <source srcset="..\img\gradient.webp">
+                <source srcset="..\img\gradient.webp">
+                <img src="..\img\gradient.webp" class="img-fluid" alt="Flex Power Solutions">
+              </picture>
+              <div class="bg-object"></div>
             </div>
           </div>
 
