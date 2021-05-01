@@ -170,10 +170,7 @@
         </section>
 
         <!-- OTHER PROJECTS SECTION -->
-        
 
-        {{--
-        Bromptom wine, CAFC, Nigel Cheney, Super G, Leon and Croft
         <section class="container">
           <div class="row pb-5 my-lg-5">
             <div class="col-12 py-lg-5" id="projects">
@@ -183,14 +180,64 @@
 
           <div class="row">
 
-            <div class="col-12 col-lg-4">
-              <h3 class="mb-3">Bromptom Wines</h3>
-
-                <a href="https://www.XXXXXXX.com/" class="btn btn-outline-dark rounded-0 text-uppercase mb-5 mt-3" target="_blank">View live project</a>
+            <div class="col-12 col-lg-4 mb-4">
+              <div class="hoverbox" style="background-image: url('/img/wine.jpg');">
+                <div id="hoverbox-title" class="hoverbox-title">Bromptom Wine</div>
+                <div id="hoverboxcontent" class="hoverbox-content">
+                  <h3 class="mb-2">Bromptom Wine</h3>
+                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
+                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                </div>
               </div>
             </div>
+            <div class="col-12 col-lg-4 mb-4">
+              <div class="hoverbox" style="background-image: url('/img/cafc.jpg');">
+                <div id="hoverbox-title" class="hoverbox-title">CAFC</div>
+                <div id="hoverboxcontent" class="hoverbox-content">
+                  <h3 class="mb-2">Child and Family Consultancy</h3>
+                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
+                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 mb-4">
+              <div class="hoverbox" style="background-image: url('/img/superg.jpg');">
+                <div id="hoverbox-title" class="hoverbox-title">The Super Generation</div>
+                <div id="hoverboxcontent" class="hoverbox-content">
+                  <h3 class="mb-2">Bromptom Wine</h3>
+                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
+                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+              <div class="hoverbox" style="background-image: url('/img/leonandcroft.jpg');">
+                <div id="hoverbox-title" class="hoverbox-title">Leon and Croft</div>
+                <div id="hoverboxcontent" class="hoverbox-content">
+                  <h3 class="mb-2">Bromptom Wine</h3>
+                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
+                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-12 col-lg-6 mb-4">
+              <div class="hoverbox" style="background-image: url('/img/nigel.jpg');">
+                <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
+                <div id="hoverboxcontent" class="hoverbox-content">
+                  <h3 class="mb-2">Bromptom Wine</h3>
+                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
+                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                </div>
+              </div>
+            </div>
+
           </div>
-        </section> --}}
+        </section>
+
+        
 
         <!-- SERVICES SECTION -->
 
@@ -200,7 +247,7 @@
               <div class="col-12 col-lg-5 offset-lg-7 py-5" >
                 <span class="subhead">What I can do for you</span>
                 <h2 class="display-1">Services</h2>
-                  <p>I do front-end web development which ranges from wordpress websites to fully bespoke solutions. I also do graphic and print design. I have good attention to details and communicate efficiently. I don't commit to projects if I cannot deliver them to a high standard. </p>
+                  <p>I provide front-end web development which ranges from wordpress websites to fully bespoke solutions. I also do graphic and print design. I have good attention to details and communicate efficiently. I don't commit to projects if I cannot deliver them to a high standard.</p>
               </div>
             </div>
           </div>
@@ -298,28 +345,31 @@
 
     <footer>
       <div id="start" class="container py-5">
-        <div class="row py-5">
+        <div class="row pt-5">
           <div class="col-12 col-lg-8 py-5 d-flex flex-column align-self-center">
             <span class="subhead pb-3">C'mere to me</span>
             <p class="display-5">
               You need a website and I need money. That dream house in the countryside isn't going to pay for itself.
             </p>
             <hr class="my-5 short-line" />
-            <a class="text-white display-5" href="mailto:info@amberandemerald.com">info@amberandemerald.com</a>
+            <a class="text-white display-6" href="mailto:info@amberandemerald.com">info@amberandemerald.com</a>
             <p class="text-muted">+353 (0)83 13 44 883</p>
             <p class="subhead pt-5">Connect</p>
-            <a href="https://www.linkedin.com/in/logan-mclain-aa2629162/" target="_blank" class="social">
-              <img src="../img/linkedin.svg" alt="LinkedIn" width="30px" height="30px">
-            </a>
-            <a href="https://github.com/Sloggiebear" target="_blank" class="social">
-              <img src="../img/github.svg" alt="Github" width="30px" height="30px">
-            </a>
+            <div class="d-flex">
+              <a href="https://www.linkedin.com/in/logan-mclain-aa2629162/" target="_blank" class="social">
+
+                  <img src="../img/linkedin.svg" alt="LinkedIn" width="30px" height="30px">
+                </a>
+                <a href="https://github.com/Sloggiebear" target="_blank" class="social">
+                  <img src="../img/github.svg" alt="Github" width="30px" height="30px">
+                </a>
+            </div>
             
         </div>
-        <div class="col-12 col-lg-4 d-flex align-items-end justify-content-end">
-          <div>
+        <div class="col-12 col-lg-4 d-lg-flex align-items-end justify-content-end">
+          <div class="text-center">
             <a href="https://www.greengeeks.com/track/amberemerald" onclick="ggs_ggseal()">
-              <img class="p-5 scale" alt="greengeeks" src="https://static.greengeeks.com/ggseal/Green_12.png"></a>
+              <img class="p-2 scale" alt="greengeeks" src="https://static.greengeeks.com/ggseal/Green_12.png"></a>
               <script>function ggs_ggseal(){window.open("https://my.greengeeks.com/seal/","_blank")}</script>
           </div>
         </div>
