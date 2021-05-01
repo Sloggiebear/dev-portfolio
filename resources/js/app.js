@@ -33,7 +33,7 @@ const el = document.querySelector('#wordpress-drawing');
 const options = {
     root: null,
     threshold: 0,
-    rootMargin: "-100px"
+    rootMargin: "-10px"
 };
 
 const observer = new IntersectionObserver(function(entries, 

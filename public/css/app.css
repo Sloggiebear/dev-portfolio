@@ -401,3 +401,10 @@ footer a {
   box-shadow: -1px -1px 11px 3px #d0d0d0;
   transform: translate(0px, -20px);
 }
+
+.social {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin: 0px 10px 10px 0px;
+}

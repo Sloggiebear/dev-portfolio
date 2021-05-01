@@ -62,9 +62,9 @@
 
         <!-- PROJECTS SECTION -->
         <section class="container">
-          <div class="row my-5">
-            <div class="col-12 py-5" id="projects">
-              <h2 class="mt-5 display-1">Projects</h2>
+          <div class="row pb-5 my-lg-5">
+            <div class="col-12 py-lg-5" id="projects">
+              <h2 class="mt-5 display-1">Recent Projects</h2>
             </div>
           </div>
 
@@ -74,7 +74,7 @@
             <div class="col-12 col-lg-6 order-2 order-lg-1">
               <h3 class="mb-3">Flex Power Solutions</h3>
               <p>
-                This small Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website to communicate the benefits of diverting excess renewable energy into high-efficieny heat and steam generation. 
+                This Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website to communicate the benefits of diverting excess renewable energy into high-efficieny heat and steam generation. 
               </p>
               <div class="tech pt-4">
                 <p class="subhead">Technical Overview</p>
@@ -168,6 +168,31 @@
           </div>
 
         </section>
+
+        <!-- OTHER PROJECTS SECTION -->
+        
+
+        {{--
+        Bromptom wine, CAFC, Nigel Cheney, Super G, Leon and Croft
+        <section class="container">
+          <div class="row pb-5 my-lg-5">
+            <div class="col-12 py-lg-5" id="projects">
+              <h2 class="mt-5 display-1">Other Projects</h2>
+            </div>
+          </div>
+
+          <div class="row">
+
+            <div class="col-12 col-lg-4">
+              <h3 class="mb-3">Bromptom Wines</h3>
+
+                <a href="https://www.XXXXXXX.com/" class="btn btn-outline-dark rounded-0 text-uppercase mb-5 mt-3" target="_blank">View live project</a>
+              </div>
+            </div>
+          </div>
+        </section> --}}
+
+        <!-- SERVICES SECTION -->
 
         <section id="services" class="section-services">
           <div class="container">
@@ -283,8 +308,13 @@
             <a class="text-white display-5" href="mailto:info@amberandemerald.com">info@amberandemerald.com</a>
             <p class="text-muted">+353 (0)83 13 44 883</p>
             <p class="subhead pt-5">Connect</p>
-            <a href="#" class="social">LinkedIn</a>
-            <a href="#" class="social">Github</a>
+            <a href="https://www.linkedin.com/in/logan-mclain-aa2629162/" target="_blank" class="social">
+              <img src="../img/linkedin.svg" alt="LinkedIn" width="30px" height="30px">
+            </a>
+            <a href="https://github.com/Sloggiebear" target="_blank" class="social">
+              <img src="../img/github.svg" alt="Github" width="30px" height="30px">
+            </a>
+            
         </div>
         <div class="col-12 col-lg-4 d-flex align-items-end justify-content-end">
           <div>
@@ -304,11 +334,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="{{ URL::asset('js/app.js') }}"></script>
-    <script>
+    {{-- <script>
     function draw(id) {
       let el = document.getElementById(id);
       el.classList.toggle('draw-in'); 
       }
-    </script>
+    </script> --}}
     </body>
 </html>

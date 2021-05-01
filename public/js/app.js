@@ -19414,7 +19414,7 @@ var el = document.querySelector('#wordpress-drawing');
 var options = {
   root: null,
   threshold: 0,
-  rootMargin: "-100px"
+  rootMargin: "-10px"
 };
 var observer = new IntersectionObserver(function (entries, observer) {
   entries.forEach(function (entry) {
