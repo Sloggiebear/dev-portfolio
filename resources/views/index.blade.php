@@ -71,8 +71,8 @@
           <!-- FLEX POWER SOLUTIONS -->
           <div class="row portfolio-item mb-5">
 
-            <div class="col-12 col-lg-6">
-              <h3>Flex Power Solutions</h3>
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+              <h3 class="mb-3">Flex Power Solutions</h3>
               <p>
                 This small Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website to communicate the benefits of diverting excess renewable energy into high-efficieny heat and steam generation. 
               </p>
@@ -93,17 +93,20 @@
               </div>
             </div>
 
-            <div class="col-12 col-lg-6 flexpower">
+            <div class="col-12 col-lg-6 flexpower order-1 order-lg-2 mb-5 mb-lg-0">
               <img src="..\img\flex-power-solutions.png" class="img-fluid" alt="Flex Power Solutions">
               <div class="bg-object"></div>
             </div>
 
           </div>
 
+          <hr class="my-5">
+
           <!-- HELLO ALTRA -->
           <div class="row my-5 pt-5 portfolio-item">
-            <div class="col-12 col-lg-6">
-              <h3>Hello Altra</h3>
+
+            <div class="col-12 col-lg-6 order-2 order-lg-2">
+              <h3 class="mb-3">Hello Altra</h3>
               <p>
                 Altra needed a new website with a fast load speed to inform their clients of a new web app they have developed for the nursing home sector to connect families with residents during the pandemic.  
               </p>
@@ -119,19 +122,34 @@
                   <li>JavaScript</li>
                   <li>Bootstrap</li>
                 </ul>
-                <a href="https://www.flexpowersolutions.com/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
+                <a href="https://www.helloaltra.com/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
               </div>
             </div>
+
+            <div class="col-12 col-lg-6 altra order-1 order-lg-1">
+              <picture>
+
+                <img src="..\img\hello-altra.png" class="img-fluid" alt="Hello Altra">
+              </picture>
+              <div class="bg-object"></div>
+            </div>
+
           </div>
+
+          <hr class="my-5">
 
           <!-- GRADIENT -->
           <div class="row portfolio-item">
-            <div class="col-12 col-lg-6">
-                <span class="subhead">A simple grade calculator</span>
-                <h3>Gradient</h3>
-                <p>
-                  The National College of Art and Design uses an alpha grade system for their assessments. This simple tool allows staff to save time by calculating the overall average grade for up to four assessment criteria. It is easy to use and designed to be responsive for mobile and desktop.
-                </p>
+            <div class="col-12 col-lg-6 order-2 order-lg-1">
+              <h3 class="mb-3">Gradient</h3>
+              <p>
+                The National College of Art and Design uses an alpha grade system for their assessments. This easy-to-use tool allows staff to save time by calculating the overall average grade for up to four assessment criteria.
+              </p>
+              <span class="subhead">Technical Overview</span>
+              <p>
+                Gradient is a simple javascript calculator. It began as a spreadsheet to make assessments quicker and more accurate. That was later developed into its first form of <a href="http://gradey.loganmclain.com/">Gradey+</a>. Gradient was devloped from that when the layout was redesigned to be mobile-friendly. 
+              </p>
+              
                 <span>Technologies used</span>
                 <div class="tech">
                   <ul>
@@ -140,13 +158,11 @@
                     <li>JavaScript</li>
                   </ul>
                 </div>
+                <a href="https://gradient.loganmclain.com/" class="btn btn-outline-dark rounded-0 text-uppercase my-2" target="_blank">View live project</a>
+                <a href="https://github.com/Sloggiebear/Gradient" class="btn btn-outline-dark rounded-0 text-uppercase m-2" target="_blank">View on Github</a>
             </div>
-            <div class="col-12 col-lg-6 gradient">
-              <picture>
-                <source srcset="..\img\gradient.webp">
-                <source srcset="..\img\gradient.webp">
-                <img src="..\img\gradient.webp" class="img-fluid" alt="Flex Power Solutions">
-              </picture>
+            <div class="col-12 col-lg-6 gradient order-1 order-lg-2">
+              <img src="..\img\gradient-screens.png" class="img-fluid" alt="Gradient">
               <div class="bg-object"></div>
             </div>
           </div>
