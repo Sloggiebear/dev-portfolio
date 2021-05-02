@@ -186,7 +186,7 @@
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Bromptom Wine</h3>
                   <p>Front-end design and development for a UK-based wine store and wine training business.</p>
-                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                  <a href="https://www.bromptonwine.co.uk" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
@@ -195,8 +195,8 @@
                 <div id="hoverbox-title" class="hoverbox-title">CAFC</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Child and Family Consultancy</h3>
-                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
-                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                  <p>A simple and clean wordpress site which allows the organisation to update their own content.</p>
+                  <a href="http://www.cafc.ie" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
@@ -205,9 +205,9 @@
               <div class="hoverbox" style="background-image: url('/img/superg.jpg');">
                 <div id="hoverbox-title" class="hoverbox-title">The Super Generation</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
-                  <h3 class="mb-2">Bromptom Wine</h3>
-                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
-                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                  <h3 class="mb-2">The Super Generation</h3>
+                  <p>Integration with Arlo event booking system and and their sister company's e-commerce store.</p>
+                  <a href="https://www.thesupergeneration.com/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
@@ -217,8 +217,8 @@
                 <div id="hoverbox-title" class="hoverbox-title">Leon and Croft</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Bromptom Wine</h3>
-                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
-                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                  <p>An emphasis on photography to show off the portfolio of work of this award-winning interior design company.</p>
+                  <a href="https://www.leonandcroft.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
@@ -228,8 +228,8 @@
                 <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Bromptom Wine</h3>
-                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
-                  <a href="https://www.bromptonwine.co.uk/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                  <p>Thiw ordpress site with WooCommerce store allows this UK-Based artist to sell his work.</p>
+                  <a href="https://www.nigelcheney.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>

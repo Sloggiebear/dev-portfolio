@@ -437,7 +437,7 @@ footer a {
   align-items: center;
   justify-content: center;
   opacity: 0.8;
-  background-color: rgba(168, 38, 180, 0.753);
+  background-color: rgba(168, 38, 180, 0.9);
   position: absolute;
   transform: translateY(-400px);
   opacity: 0;
