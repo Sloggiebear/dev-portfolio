@@ -74,7 +74,7 @@
             <div class="col-12 col-lg-6 order-2 order-lg-1">
               <h3 class="mb-3">Flex Power Solutions</h3>
               <p>
-                This Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website to communicate the benefits of diverting excess renewable energy into high-efficieny heat and steam generation. 
+                This Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website to communicate the benefits of diverting excess renewable energy into high-efficiency heat and steam generation. 
               </p>
               <div class="tech pt-4">
                 <p class="subhead">Technical Overview</p>
@@ -113,7 +113,7 @@
               <div class="tech">
                 <p class="subhead">Technical Overview</p>
                 <p>
-                  My role was to take the XD design files provided by their designer and convert them into a fully functional, front-end build with google analytics and calendy integration. I used bootstrap for responsive elements and worked with a backend developer who integrated my code into a overted a laravel setup. 
+                  My role was to take the XD design files provided by their designer and convert them into a fully functional, front-end build with Google Analytics and Calendy integration. I used bootstrap for responsive elements and worked with a backend developer who integrated my code into a Laravel setup. 
                 </p>
                 <span>Technologies used</span>
                 <ul>
@@ -195,7 +195,7 @@
                 <div id="hoverbox-title" class="hoverbox-title">CAFC</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Child and Family Consultancy</h3>
-                  <p>A simple and clean wordpress site which allows the organisation to update their own content.</p>
+                  <p>A simple and clean Wordpress site which allows the organisation to update their own content.</p>
                   <a href="http://www.cafc.ie" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
@@ -228,7 +228,7 @@
                 <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Bromptom Wine</h3>
-                  <p>Thiw ordpress site with WooCommerce store allows this UK-Based artist to sell his work.</p>
+                  <p>This Wordpress site uses WooCommerce to allow this UK-Based artist to sell his work.</p>
                   <a href="https://www.nigelcheney.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
@@ -333,7 +333,7 @@
                   <img src="/img/wrench.svg" alt="" class="icon">
                   <h5 class="subhead">Maintained</h5>
                   <p>
-                    Avail of an optional maintenace package to maintain the stability of your code, install new security features and create backsups for peace of mind. 
+                    Avail of an optional maintenace package to maintain the stability of your code, install new security features and create backups for peace of mind. 
                   </p>
                 </div>
               </div>
