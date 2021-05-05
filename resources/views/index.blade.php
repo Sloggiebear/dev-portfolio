@@ -333,7 +333,7 @@
                   <img src="/img/wrench.svg" alt="" class="icon">
                   <h5 class="subhead">Maintained</h5>
                   <p>
-                    Avail of an optional maintenace package to maintain the stability of your code, install new security features and create backups for peace of mind. 
+                    Avail of an optional maintenance package to ensure the stability of your code, install new security features and create backups for peace of mind. 
                   </p>
                 </div>
               </div>

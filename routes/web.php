@@ -17,3 +17,6 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/todo', function () {
+    return view('todo');
+});
