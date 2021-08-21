@@ -12,7 +12,8 @@
   margin: 0;
   padding: 0;
   font-family: var(--fontbody);
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 h1,
@@ -21,6 +22,10 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--fontheading);
+}
+
+.heading {
   font-family: var(--fontheading);
 }
 
@@ -37,12 +42,17 @@ p a:hover {
 @media (max-width: 992px) {
   nav {
     background-color: rgba(0, 0, 0, 0.755);
+    -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   }
   nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: auto;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   nav ul li {
     list-style-type: none;
@@ -58,17 +68,20 @@ p a:hover {
     color: white;
   }
   .section-header {
-    clip-path: none !important;
+    -webkit-clip-path: none !important;
+            clip-path: none !important;
   }
   .section-services {
-    clip-path: none !important;
+    -webkit-clip-path: none !important;
+            clip-path: none !important;
     background-image: none !important;
   }
   .box {
     border-left: 2px solid var(--pink);
     min-height: unset !important;
     margin-bottom: 20px;
-    box-shadow: -1px -1px 11px 3px #d0d0d0;
+    -webkit-box-shadow: -1px -1px 11px 3px #d0d0d0;
+            box-shadow: -1px -1px 11px 3px #d0d0d0;
   }
 }
 
@@ -79,13 +92,20 @@ p a:hover {
     height: 80px;
     top: 0px;
     left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 20px;
     background-color: transparent;
+    -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   }
   nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: auto;
   }
@@ -117,12 +137,17 @@ p a:hover {
   width: 100%;
   height: 1px;
   background-color: white;
-  transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .nav-item:hover::after {
-  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .nav__button {
@@ -138,6 +163,7 @@ p a:hover {
   pointer-events: none;
   position: relative;
   left: 0px;
+  -webkit-transition: all ease-in-out 250ms;
   transition: all ease-in-out 250ms;
   width: 400px;
   font-size: 1.2em;
@@ -154,7 +180,9 @@ p a:hover {
   background-image: var(--gradient);
   height: 100vh;
   min-height: 800px;
-  clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
+          clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
+  -webkit-transition: all ease-in-out 0.7s;
   transition: all ease-in-out 0.7s;
 }
 
@@ -164,7 +192,8 @@ p a:hover {
 }
 
 .straight-clip {
-  clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%, 0% 50%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%, 0% 50%);
+          clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%, 0% 50%);
 }
 
 .section-services {
@@ -173,7 +202,8 @@ p a:hover {
   background-repeat: no-repeat;
   background-size: 600px;
   background-position-x: 10%;
-  clip-path: polygon(0 28%, 100% 0, 100% 76%, 0% 100%);
+  -webkit-clip-path: polygon(0 28%, 100% 0, 100% 76%, 0% 100%);
+          clip-path: polygon(0 28%, 100% 0, 100% 76%, 0% 100%);
   height: 100%;
   width: 100%;
   overflow: visible;
@@ -222,32 +252,49 @@ footer a {
 }
 
 .scale {
+  -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
-  transform: scale(0.8);
-  filter: grayscale(1);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
 }
 
 .scale:hover {
-  transform: scale(1);
-  filter: grayscale(0);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 
 .flexpower {
   position: relative;
   overflow: hidden;
   min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .flexpower img {
+  -webkit-transition: -webkit-transform ease 0.5s;
+  transition: -webkit-transform ease 0.5s;
   transition: transform ease 0.5s;
-  transform: scale(1);
+  transition: transform ease 0.5s, -webkit-transform ease 0.5s;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .flexpower img:hover {
-  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .flexpower .bg-object {
@@ -255,16 +302,27 @@ footer a {
   height: 90%;
   width: 90%;
   background-image: url("/img/sky.jpg");
-  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  -webkit-clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+          clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   z-index: -1;
   background-size: cover;
   background-position: left;
   animation: skyfall infinite alternate-reverse 30s;
   opacity: 0.7;
+}
+
+@-webkit-keyframes skyfall {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 @keyframes skyfall {
@@ -292,12 +350,23 @@ footer a {
   bottom: 0;
   height: 95%;
   width: 95%;
+  background-image: -webkit-gradient(linear, left top, right top, from(#81018d), to(#023679));
   background-image: linear-gradient(90deg, #81018d, #023679);
   background-size: 500%;
   z-index: -1;
-  clip-path: polygon(75% 0, 0% 66%, 97% 93%);
+  -webkit-clip-path: polygon(75% 0, 0% 66%, 97% 93%);
+          clip-path: polygon(75% 0, 0% 66%, 97% 93%);
   animation: movegradient infinite alternate-reverse 8s;
   opacity: 0.7;
+}
+
+@-webkit-keyframes movegradient {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 
 @keyframes movegradient {
@@ -323,9 +392,15 @@ footer a {
 }
 
 .portfolio-item .tech ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   padding-left: 0px;
   margin-bottom: 15px;
@@ -344,6 +419,7 @@ footer a {
   stroke-width: 1px;
   stroke-dasharray: 2040px;
   stroke-dashoffset: -2040px;
+  -webkit-transition: stroke-dashoffset 2s linear 0.8s, fill 0.8s ease;
   transition: stroke-dashoffset 2s linear 0.8s, fill 0.8s ease;
 }
 
@@ -351,6 +427,7 @@ footer a {
   fill: #4e4e4e;
   stroke: #4e4e4e;
   stroke-dashoffset: 0px;
+  -webkit-transition: stroke-dashoffset 2s linear, fill 0.8s ease 2s;
   transition: stroke-dashoffset 2s linear, fill 0.8s ease 2s;
 }
 
@@ -370,13 +447,16 @@ footer a {
 
 .box {
   min-height: 350px;
+  -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
   padding: 30px;
 }
 
 .box:hover {
-  box-shadow: -1px -1px 11px 3px #d0d0d0;
-  transform: translate(0px, -20px);
+  -webkit-box-shadow: -1px -1px 11px 3px #d0d0d0;
+          box-shadow: -1px -1px 11px 3px #d0d0d0;
+  -webkit-transform: translate(0px, -20px);
+          transform: translate(0px, -20px);
 }
 
 .social {
@@ -393,11 +473,13 @@ footer a {
   min-height: 400px;
   position: relative;
   overflow: hidden;
+  -webkit-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
 
 .hoverbox:hover #hoverboxcontent {
-  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
   opacity: 1;
 }
 
@@ -409,17 +491,28 @@ footer a {
   display: block;
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   opacity: 0.8;
   background-color: rgba(168, 38, 180, 0.9);
   position: absolute;
-  transform: translateY(-400px);
+  -webkit-transform: translateY(-400px);
+          transform: translateY(-400px);
   opacity: 0;
   color: white;
   z-index: 5;
+  -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   text-align: center;
   padding: 10px;
@@ -432,10 +525,13 @@ footer a {
   font-size: 2.3rem;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
   text-align: center;
+  -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   text-shadow: 5px 5px 10px black;
 }
+/*# sourceMappingURL=app.css.map */

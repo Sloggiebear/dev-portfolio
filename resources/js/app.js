@@ -33,13 +33,13 @@ const el = document.querySelector('#wordpress-drawing');
 const options = {
     root: null,
     threshold: 0,
-    rootMargin: "-10px"
+    rootMargin: "-100px"
 };
 
 const observer = new IntersectionObserver(function(entries, 
     observer) {
         entries.forEach (entry => {
-            entry.target.classList.add('draw-in');
+            entry.target.classList.toggle('draw-in');
         });
 }, options);
 

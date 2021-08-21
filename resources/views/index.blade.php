@@ -55,7 +55,7 @@
               <h1 class="subhead pt-5">Website Design & Web Development Ireland</h1>
               <h2 class="py-3 m-0 fw-bolder display-1">Hey there,<br>My name is Logan</h2>
               <hr class="my-5 short-line" />
-              <p class="m-0">I'm a freelance front-end web developer and designer based in Ireland.</p>
+              <p class="m-0">I'm a freelance front-end web developer and designer based in Dublin, Ireland.</p>
             </div>
           </div>
         </header>
@@ -63,8 +63,9 @@
         <!-- PROJECTS SECTION -->
         <section class="container">
           <div class="row pb-5 my-lg-5">
-            <div class="col-12 py-lg-5" id="projects">
-              <h2 class="mt-5 display-1">Recent Projects</h2>
+            <div class="col-12 py-lg-5 pt-5" id="projects">
+              <h2 class="mt-5 subhead">Website Design & Development Projects</h2>
+              <span class="display-2 heading">Recent Projects</span>
             </div>
           </div>
 
@@ -74,12 +75,12 @@
             <div class="col-12 col-lg-6 order-2 order-lg-1">
               <h3 class="mb-3">Flex Power Solutions</h3>
               <p>
-                This Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website to communicate the benefits of diverting excess renewable energy into high-efficiency heat and steam generation. 
+                This Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website design to communicate the benefits of diverting excess renewable energy into high-efficiency heat and steam generation. 
               </p>
               <div class="tech pt-4">
                 <p class="subhead">Technical Overview</p>
                 <p>
-                  My role was design and front-end. I used bootstrap for a responsive layout because I wanted to get the foundations laid fast. I added custom javascript for the navbar and header on scroll. I also implemented the <a href="https://michalsnik.github.io/aos/" target="_blank">AOS library</a> to add more style and animation to the site. I worked with a back end developer who specialises in Laravel, I wrote temporary routes before he structured the project to allow the client to update the content on pages through a basic CMS
+                  My role was website design and front-end web development. I used bootstrap for a responsive layout because I wanted to get the foundations laid fast. I added custom javascript for the navbar and header on scroll. I also implemented the <a href="https://michalsnik.github.io/aos/" target="_blank">AOS library</a> to add more style and animation to the site. I worked with a back end developer who specialises in Laravel, I wrote temporary routes before he structured the project to allow the client to update the content on pages through a basic CMS
                 </p>
                 <span>Technologies used</span>
                 <ul>
@@ -108,12 +109,12 @@
             <div class="col-12 col-lg-6 order-2 order-lg-2">
               <h3 class="mb-3">Hello Altra</h3>
               <p>
-                Altra needed a new website with a fast load speed to inform their clients of a new web app they have developed for the nursing home sector to connect families with residents during the pandemic.  
+                Altra needed a new website design with a fast load speed to inform their clients of a new web app they have developed for the nursing home sector to connect families with residents during the pandemic.  
               </p>
               <div class="tech">
                 <p class="subhead">Technical Overview</p>
                 <p>
-                  My role was to take the XD design files provided by their designer and convert them into a fully functional, front-end build with Google Analytics and Calendy integration. I used bootstrap for responsive elements and worked with a backend developer who integrated my code into a Laravel setup. 
+                  My role was to take the Adobe XD website design files provided by their designer and convert them into a fully functional, front-end build with Google Analytics and Calendy integration. I used bootstrap for responsive elements and worked with a backend developer who integrated my code into a Laravel setup. 
                 </p>
                 <span>Technologies used</span>
                 <ul>
@@ -181,39 +182,39 @@
           <div class="row">
 
             <div class="col-12 col-lg-4 mb-4">
-              <div class="hoverbox" style="background-image: url('/img/wine.jpg');">
+              <div class="hoverbox" style="background-image: url('/img/wine.jpg');" title="Bromptom Wine Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Bromptom Wine</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Bromptom Wine</h3>
-                  <p>Front-end design and development for a UK-based wine store and wine training business.</p>
+                  <p>Website design and front-end development for a UK-based wine store and wine training business.</p>
                   <a href="https://www.bromptonwine.co.uk" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
             <div class="col-12 col-lg-4 mb-4">
-              <div class="hoverbox" style="background-image: url('/img/cafc.jpg');">
+              <div class="hoverbox" style="background-image: url('/img/cafc.jpg');" title="CAFC Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">CAFC</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Child and Family Consultancy</h3>
-                  <p>A simple and clean Wordpress site which allows the organisation to update their own content.</p>
+                  <p>A simple and clean Wordpress webiste design which allows the organisation to update their own content.</p>
                   <a href="http://www.cafc.ie" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
 
             <div class="col-12 col-lg-4 mb-4">
-              <div class="hoverbox" style="background-image: url('/img/superg.jpg');">
+              <div class="hoverbox" style="background-image: url('/img/superg.jpg');" title="The Super Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">The Super Generation</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">The Super Generation</h3>
-                  <p>Integration with Arlo event booking system and and their sister company's e-commerce store.</p>
+                  <p>Website design with integration of Arlo Event Booking System and and their sister company's e-commerce store.</p>
                   <a href="https://www.thesupergeneration.com/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
 
             <div class="col-12 col-lg-6 mb-4">
-              <div class="hoverbox" style="background-image: url('/img/leonandcroft.jpg');">
+              <div class="hoverbox" style="background-image: url('/img/leonandcroft.jpg');" title="Leon and Croft Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Leon and Croft</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Bromptom Wine</h3>
@@ -224,7 +225,7 @@
             </div>
             
             <div class="col-12 col-lg-6 mb-4">
-              <div class="hoverbox" style="background-image: url('/img/nigel.jpg');">
+              <div class="hoverbox" style="background-image: url('/img/nigel.jpg');" title="Nigel Cheney Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Bromptom Wine</h3>
