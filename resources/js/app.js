@@ -39,7 +39,7 @@ const options = {
 const observer = new IntersectionObserver(function(entries, 
     observer) {
         entries.forEach (entry => {
-            entry.target.classList.toggle('draw-in');
+            entry.target.classList.add('draw-in');
         });
 }, options);
 

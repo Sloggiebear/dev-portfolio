@@ -69,6 +69,43 @@
             </div>
           </div>
 
+          <!-- BTSL NEW ZEALAND -->
+          <div class="row my-5 pt-5 portfolio-item">
+
+            <div class="col-12 col-lg-6 order-2 order-lg-2">
+              <h3 class="mb-3">BTSL</h3>
+              <p>
+                BTSL are one of New Zealand's largest construction tendering sites. I worked with a back-end developer and a designer to update their platform.
+              </p>
+              <div class="tech">
+                <p class="subhead">Technical Overview</p>
+                <p>
+                  I used a combination of HTML5, Bootstrap and custom CSS to create a range of front and back-end user interfaces including features like document uploads, document management and project searches. The UIs made use of modals and expandable elements to keep things clean and organised. The platform was updated onto the Laravel framework for both main-contractor and sub-contractor sites. 
+                </p>
+                <span>Technologies used</span>
+                <ul>
+                  <li>HTML</li>
+                  <li>SCSS</li>
+                  <li>JavaScript</li>
+                  <li>Bootstrap</li>
+                </ul>
+                <a href="https://workdesk.btsl.co.nz/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 altra order-1 order-lg-1">
+              <picture>
+                <source srcset="..\img\btsl-nz.webp" type="image/webp">
+                <source srcset="..\img\btsl-nz.png" type="image/png"> 
+                <img src="..\img\btsl-nz.png" class="img-fluid" alt="BTSL New Zealand Text!">
+              </picture>
+              <div class="bg-object"></div>
+            </div>
+
+          </div>
+
+          <hr class="my-5">
+
           <!-- FLEX POWER SOLUTIONS -->
           <div class="row portfolio-item mb-5">
 
@@ -228,7 +265,7 @@
               <div class="hoverbox" style="background-image: url('/img/nigel.jpg');" title="Nigel Cheney Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
-                  <h3 class="mb-2">Bromptom Wine</h3>
+                  <h3 class="mb-2">Nigel Cheney</h3>
                   <p>This Wordpress site uses WooCommerce to allow this UK-Based artist to sell his work.</p>
                   <a href="https://www.nigelcheney.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>

@@ -19418,7 +19418,7 @@ var options = {
 };
 var observer = new IntersectionObserver(function (entries, observer) {
   entries.forEach(function (entry) {
-    entry.target.classList.toggle('draw-in');
+    entry.target.classList.add('draw-in');
   });
 }, options);
 observer.observe(el);
