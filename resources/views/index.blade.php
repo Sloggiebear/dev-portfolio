@@ -88,6 +88,7 @@
                   <li>SCSS</li>
                   <li>JavaScript</li>
                   <li>Bootstrap</li>
+                  <li>Laravel Framework</li>
                 </ul>
                 <a href="https://workdesk.btsl.co.nz/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
               </div>
@@ -250,7 +251,7 @@
               </div>
             </div>
 
-            <div class="col-12 col-lg-6 mb-4">
+            <div class="col-12 col-lg-4 mb-4">
               <div class="hoverbox" style="background-image: url('/img/leonandcroft.jpg');" title="Leon and Croft Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Leon and Croft</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
@@ -261,13 +262,24 @@
               </div>
             </div>
             
-            <div class="col-12 col-lg-6 mb-4">
+            <div class="col-12 col-lg-4 mb-4">
               <div class="hoverbox" style="background-image: url('/img/nigel.jpg');" title="Nigel Cheney Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">Nigel Cheney</h3>
                   <p>This Wordpress site uses WooCommerce to allow this UK-Based artist to sell his work.</p>
                   <a href="https://www.nigelcheney.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 mb-4">
+              <div class="hoverbox" style="background-image: url('/img/to-do.jpg');" title="To Do List">
+                <div id="hoverbox-title" class="hoverbox-title">To Do List</div>
+                <div id="hoverboxcontent" class="hoverbox-content">
+                  <h3 class="mb-2">To Do List</h3>
+                  <p>A canonical addition to any developer's portfolio, a standard vanilla javascript to-do list.</p>
+                  <a href="https://todo.amberandemerald.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
