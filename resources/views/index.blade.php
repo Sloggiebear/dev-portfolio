@@ -5,12 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Website Design Ireland</title>
-        <link
-        href="https://fonts.googleapis.com/css?family=Poppins:300,900&display=swap"
-        rel="stylesheet"
-        />
+        
+        {{-- Bootstrap --}}
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>    <script src="{{ URL::asset('js/app.js') }}"></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        
+        {{-- styles --}}
         <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" /> 
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJRCVF92X6"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-TJRCVF92X6');
+        </script>
     </head>
 
     <body>
@@ -306,7 +317,7 @@
           <section class="container">
             <div class="row pt-5 pb-3 pb-lg-5">
               <div class="col-12 col-lg-6 order-2">
-                <h5 class="subhead">Wordpress Websites</h5>
+                <h5 class="subhead">Wordpress and e-Commerce Websites</h5>
                 <h2 class="mb-5">for Small/Medium Organisations</h2>
                 <p>
                   Are you looking for to get a <strong>business website design in Ireland</strong>? Get the best out of the internet with a small business website. Promote your unique selling point, establish your brand and grow your online presence. The small business websites is custom designed for small businesses and start-ups requiring a professional business website with a content management system.
@@ -430,15 +441,5 @@
     <div class="subfooter">
       <span>© Copyright Amber and Emerald Limited | Company Number: 663689</span>
     </div>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="{{ URL::asset('js/app.js') }}"></script>
-    {{-- <script>
-    function draw(id) {
-      let el = document.getElementById(id);
-      el.classList.toggle('draw-in'); 
-      }
-    </script> --}}
     </body>
 </html>

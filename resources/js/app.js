@@ -1,5 +1,3 @@
-require('../../resources/js/bootstrap');
-
 //Change nav style on scroll
 window.addEventListener('scroll', event => {
     let nav = document.querySelector('nav');
@@ -30,6 +28,7 @@ brandimage.addEventListener('mouseout', event => {
 // Draw the wordpress logo when the section intersects
 const el = document.querySelector('#wordpress-drawing');
 
+
 const options = {
     root: null,
     threshold: 0,
@@ -39,10 +38,12 @@ const options = {
 const observer = new IntersectionObserver(function(entries, 
     observer) {
         entries.forEach (entry => {
+            console.log("el", el);
             entry.target.classList.add('draw-in');
         });
 }, options);
 
 observer.observe(el);
+
 
 
