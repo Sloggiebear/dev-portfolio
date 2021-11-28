@@ -4,14 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Website Design Ireland</title>
-        
-        {{-- Bootstrap --}}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>    <script src="{{ URL::asset('js/app.js') }}"></script>
+        <title>Website Design Ireland | Amber & Emerald</title>
+
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        
-        {{-- styles --}}
-        <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}" /> 
+
+        <link rel="stylesheet" href="app.css" /> 
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJRCVF92X6"></script>
@@ -29,7 +26,7 @@
       <nav class="navbar navbar-expand-md fixed-top">
         <div class="container-fluid">
         <a class="p-3 navbar-brand" href="#">
-          <img id="brand-image" src="{{ URL::asset('/img/amber-and-emerald-logo.svg') }}" class="logo" width="30" height="30" alt="Amber and Emerald">
+          <img id="brand-image" src="/img/amber-and-emerald-logo.svg" class="logo" width="30" height="30" alt="Amber and Emerald">
         </a>
         <span class="brand-text invisible d-none d-lg-inline-block" id="brand-text">Amber and Emerald</span>
 
@@ -262,7 +259,7 @@
               </div>
             </div>
 
-            <div class="col-12 col-lg-4 mb-4">
+            <div class="col-12 col-lg-6 mb-4">
               <div class="hoverbox" style="background-image: url('/img/leonandcroft.jpg');" title="Leon and Croft Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Leon and Croft</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
@@ -273,7 +270,7 @@
               </div>
             </div>
             
-            <div class="col-12 col-lg-4 mb-4">
+            <div class="col-12 col-lg-6 mb-4">
               <div class="hoverbox" style="background-image: url('/img/nigel.jpg');" title="Nigel Cheney Website Design">
                 <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
@@ -284,13 +281,24 @@
               </div>
             </div>
 
-            <div class="col-12 col-lg-4 mb-4">
+            <div class="col-12 col-lg-6 mb-4">
               <div class="hoverbox" style="background-image: url('/img/to-do.jpg');" title="To Do List">
                 <div id="hoverbox-title" class="hoverbox-title">To Do List</div>
                 <div id="hoverboxcontent" class="hoverbox-content">
                   <h3 class="mb-2">To Do List</h3>
                   <p>A canonical addition to any developer's portfolio, a standard vanilla javascript to-do list.</p>
                   <a href="https://todo.amberandemerald.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+              <div class="hoverbox" style="background-image: url('/img/geo.jpg');" title="Your Geography Sux Bro">
+                <div id="hoverbox-title" class="hoverbox-title">Your Geography Sux, Bro</div>
+                <div id="hoverboxcontent" class="hoverbox-content">
+                  <h3 class="mb-2">Your Geography Sux, Bro</h3>
+                  <p>A simple capital city game that uses the CountryLayer API.</p>
+                  <a href="https://geo.amberandemerald.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                 </div>
               </div>
             </div>
@@ -308,7 +316,7 @@
               <div class="col-12 col-lg-5 offset-lg-7 py-5" >
                 <span class="subhead">What I can do for you</span>
                 <h2 class="display-1">Services</h2>
-                  <p>I provide front-end web development which ranges from wordpress websites to fully bespoke solutions. I also do graphic and print design. I have good attention to details and communicate efficiently. I don't commit to projects if I cannot deliver them to a high standard.</p>
+                  <p>I provide front-end web development which ranges from wordpress websites to fully bespoke solutions. I also do graphic and print design. I have good attention to detail and I communicate efficiently. I don't commit to projects if I cannot deliver them to a high standard.</p>
               </div>
             </div>
           </div>
@@ -441,5 +449,7 @@
     <div class="subfooter">
       <span>© Copyright Amber and Emerald Limited | Company Number: 663689</span>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
     </body>
 </html>
