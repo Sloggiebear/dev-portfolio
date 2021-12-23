@@ -13,9 +13,6 @@ window.addEventListener('scroll', event => {
 //Show logo text on mouseover
 let brandimage = document.getElementById('brand-image');
 let brandtext = document.getElementById("brand-text"); 
-console.log(brandimage);
-console.log(brandtext);
-
 
 brandimage.addEventListener('mouseover', event => {
     brandtext.classList.toggle('invisible');
@@ -27,7 +24,7 @@ brandimage.addEventListener('mouseout', event => {
 
 // Draw the wordpress logo when the section intersects
 const el = document.getElementById("wordpress-drawing");
-console.log(el);
+
 
 const options = {
     root: null,

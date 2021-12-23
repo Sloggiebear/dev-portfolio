@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Website build to showcase my web dev portfolio and website design",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sloggiebear/dev-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sloggiebear/dev-portfolio/issues"
+  },
+  "homepage": "https://github.com/Sloggiebear/dev-portfolio#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
