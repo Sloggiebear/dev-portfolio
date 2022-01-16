@@ -35,7 +35,6 @@ const options = {
 const observer = new IntersectionObserver(function(entries, 
     observer) {
         entries.forEach (entry => {
-            console.log("el", el);
             entry.target.classList.toggle('draw-in');
         });
 }, options);
