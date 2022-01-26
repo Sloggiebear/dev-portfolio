@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -377,7 +381,7 @@ footer {
     fill: #4e4e4e;
     stroke: #4e4e4e;
     stroke-dashoffset: 0px;
-    transition: stroke-dashoffset 2s linear, fill 0.8s ease 2s;
+    transition: stroke-dashoffset 2.5s linear, fill 0.8s ease 2s;
 }
 
 .short-line {

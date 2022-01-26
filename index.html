@@ -64,7 +64,7 @@
               <h1 class="subhead pt-5">Website Design & Web Development Ireland</h1>
               <h2 class="py-3 m-0 fw-bolder display-1">Hey there,<br>My name is Logan</h2>
               <hr class="my-5 short-line" />
-              <p class="m-0">I'm a freelance frontend web developer and designer based in Dublin, Ireland.</p>
+              <p class="m-0">I'm a freelance frontend web developer <br/>and designer based in Dublin, Ireland.</p>
             </div>
           </div>
         </header>
@@ -489,9 +489,12 @@
 
     <script src="./node_modules/aos/dist/aos.js"></script>
     <script>
-      AOS.init({
+      AOS.init(
+        {
         duration: 1200,
-      });
+        disable: 'mobile',
+      }
+      );
     </script>
     </body>
 </html>

@@ -29,13 +29,13 @@ const el = document.getElementById("wordpress-drawing");
 const options = {
     root: null,
     threshold: 0,
-    rootMargin: "100px"
+    rootMargin: "200px"
 };
 
 const observer = new IntersectionObserver(function(entries, 
     observer) {
         entries.forEach (entry => {
-            entry.target.classList.toggle('draw-in');
+            entry.target.classList.add('draw-in');
         });
 }, options);
 
