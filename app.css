@@ -42,6 +42,47 @@ p a:hover {
   color: var(--pink);
 }
 
+.bg-pink {
+  background-color: hotpink;
+}
+
+.bg-yellow {
+  background-color: #c5aa2f;
+}
+
+.bg-blue {
+  background-color: #07859b;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.takeaway-img {
+  width: 100%;
+  max-width: 450px;
+}
+
+.slider-overlay {
+  position: absolute;
+  color: white;
+  top: 20%;
+  left: 45%;
+  z-index: 25;
+  padding-right: 1rem;
+}
+
+@media (max-width: 992px) {
+  .slider-overlay {
+    position: unset;
+    color: #212529;
+  }
+  .slider-overlay .btn-outline-light {
+    color: #212529;
+    border-color: #212529;
+  }
+}
+
 @media (max-width: 992px) {
   nav {
     background-color: rgba(0, 0, 0, 0.755);
@@ -159,10 +200,12 @@ p a:hover {
 }
 
 .section-header {
-  background-image: var(--gradient);
+  background-image: url(/img/bg-header.webp);
+  background-repeat: none;
+  background-size: cover;
   height: 100vh;
   min-height: 800px;
-  clip-path: polygon(0 0, 100% 0, 100% 24%, 83% 80%, 0 100%, 0% 50%);
+  clip-path: polygon(100% 0, 100% 100%, 90% 80%, 81% 96%, 67% 84%, 61% 96%, 38% 87%, 17% 98%, 0 100%, 0 0);
   transition: all ease-in-out 0.7s;
 }
 
@@ -172,7 +215,7 @@ p a:hover {
 }
 
 .straight-clip {
-  clip-path: polygon(0 0, 100% 0, 100% 0%, 100% 100%, 0 100%, 0% 50%);
+  clip-path: polygon(100% 0, 100% 100%, 91% 100%, 78% 100%, 67% 100%, 54% 100%, 29% 100%, 11% 100%, 0 100%, 0 0);
 }
 
 .section-services {
