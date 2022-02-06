@@ -320,15 +320,55 @@
                 <li>JavaScript</li>
                 <li>Bootstrap</li>
               </ul>
-              <a
-                data-aos="fade-up"
-                href="https://www.helloaltra.com/"
-                class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5"
-                target="_blank"
-                >View project</a
-              >
+              <button
+              data-bs-toggle="modal" 
+              data-bs-target="#altraModal"
+              data-aos="fade-up"
+              class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5"
+              >View project</button
+            >
+          </div>
+        </div>
+
+        <!-- Altra Modal -->
+        <div class="modal fade" id="altraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="title">Hello Altra Website</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <picture>
+                      <source srcset="/src/img/altra-1.webp" type="image/webp" />
+                      <img src="/src/img/altra-1.png" />
+                    </picture>
+                  </div>
+                  <div class="item">
+                    <picture>
+                      <source srcset="/src/img/altra-2.webp" type="image/webp" />
+                      <img src="/src/img/altra-2.png" />
+                    </picture>
+                  </div>
+                  <div class="item">
+                    <picture>
+                      <source srcset="/src/img/altra-3.webp" type="image/webp" />
+                      <img src="/src/img/altra-3.png" />
+                    </picture>
+                  </div>
+                  <div class="item">
+                    <picture>
+                      <source srcset="/src/img/altra-4.webp" type="image/webp" />
+                      <img src="/src/img/altra-4.png" />
+                    </picture>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+        </div>
 
           <!-- BROMPTON -->
           <div data-aos="fade-left" class="col-12 col-lg-5 offset-lg-1">
