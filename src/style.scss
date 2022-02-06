@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap");
 
@@ -208,7 +210,7 @@ p a {
 }
 
 .section-header {
-  background-image: url(/img/bg-header.webp);
+  background-image: url(/src/img/bg-header.webp);
   background-repeat: none;
   background-size: cover;
   height: 100vh;
@@ -250,7 +252,7 @@ p a {
 
 .section-services {
   background-color: rgb(233, 233, 233);
-  background-image: url("/img/amber-and-emerald-logo.svg");
+  background-image: url("/src/img/amber-and-emerald-logo.svg");
   background-repeat: no-repeat;
   background-size: 600px;
   background-position-x: 10%;
@@ -334,7 +336,7 @@ footer {
     display: block;
     height: 90%;
     width: 90%;
-    background-image: url("/img/sky.jpg");
+    background-image: url("/src/img/sky.jpg");
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     position: absolute;
     top: 50%;

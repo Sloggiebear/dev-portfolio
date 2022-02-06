@@ -1,3 +1,24 @@
+import _ from 'lodash';
+
+import "bootstrap";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import "owl.carousel";
+
+import './style.scss';
+
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// import '../node_modules/owl.carousel/dist/assets/owl.carousel.css'
+// import '../node_modules/aos/dist/aos.css'
+
+// import '../node_modules/bootstrap/dist/js/bootstrap.js'
+// import '../node_modules/aos/dist/aos.js'
+// import '../node_modules/jquery/dist/jquery.js'
+// import '../node_modules/owl.carousel/dist/owl.carousel.min.js'
+
+
+
+
 //Change nav style on scroll
 window.addEventListener('scroll', event => {
     let nav = document.querySelector('nav');

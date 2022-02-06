@@ -6,19 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Website Design Ireland | Amber & Emerald</title>
 
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
-    />
+    /> -->
 
-    <link
+    <!-- <link
       rel="stylesheet"
       href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
-    />
-    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
-    <link rel="stylesheet" href="app.css" />
+    /> -->
+
+    <!-- <link rel="stylesheet" href="node_modules/aos/dist/aos.css" /> -->
+
+    <!-- <link rel="stylesheet" href="app.css" /> -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -42,7 +44,7 @@
         <a class="p-3 navbar-brand" href="#">
           <img
             id="brand-image"
-            src="/img/amber-and-emerald-logo.svg"
+            src="/src/img/amber-and-emerald-logo.svg"
             class="logo"
             width="30"
             height="30"
@@ -117,7 +119,7 @@
               Website Design & Web Development Ireland
             </h1>
             <h2 class="py-3 m-0 fw-bolder display-1">
-              Hey there,<br />My name is Logan
+              I'm Logan,<br />I code the frontend.
             </h2>
             <hr class="my-5 short-line" />
             <p class="m-0">
@@ -289,7 +291,7 @@
         <hr class="my-5" />
 
         <div class="row my-5 pt-5 portfolio-item">
-          
+
           <!-- HELLO ALTRA -->
           <div data-aos="fade-right" class="col-12 col-lg-5">
             <picture>
@@ -320,13 +322,53 @@
                 <li>JavaScript</li>
                 <li>Bootstrap</li>
               </ul>
-              <a
+              <button
+                data-bs-toggle="modal" 
+                data-bs-target="#altraModal"
                 data-aos="fade-up"
-                href="https://www.helloaltra.com/"
                 class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5"
-                target="_blank"
-                >View project</a
+                >View project</button
               >
+            </div>
+          </div>
+
+          <!-- Altra Modal -->
+          <div class="modal fade" id="altraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="title">Hello Altra Website</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <picture>
+                        <source srcset="/src/img/altra-1.webp" type="image/webp" />
+                        <img src="/src/img/altra-1.png" />
+                      </picture>
+                    </div>
+                    <div class="item">
+                      <picture>
+                        <source srcset="/src/img/altra-2.webp" type="image/webp" />
+                        <img src="/src/img/altra-2.png" />
+                      </picture>
+                    </div>
+                    <div class="item">
+                      <picture>
+                        <source srcset="/src/img/altra-3.webp" type="image/webp" />
+                        <img src="/src/img/altra-3.png" />
+                      </picture>
+                    </div>
+                    <div class="item">
+                      <picture>
+                        <source srcset="/src/img/altra-4.webp" type="image/webp" />
+                        <img src="/src/img/altra-4.png" />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -392,8 +434,8 @@
               mobile-friendly.
             </p>
 
-            <span>Technologies used</span>
             <div class="tech">
+              <span>Technologies used</span>
               <ul>
                 <li>HTML</li>
                 <li>SCSS</li>
@@ -445,26 +487,26 @@
             <div class="owl-carousel owl-theme">
               <div class="item bg-pink">
                 <picture>
-                  <source srcset="/img/takeaway-1.webp" type="image/webp" />
-                  <img class="takeaway-img" src="/img/takeaway-1.png" />
+                  <source srcset="/src/img/takeaway-1.webp" type="image/webp" />
+                  <img class="takeaway-img" src="/src/img/takeaway-1.png" />
                 </picture>
               </div>
               <div class="item bg-yellow">
                 <picture>
-                  <source srcset="/img/takeaway-2.webp" type="image/webp" />
-                  <img class="takeaway-img" src="/img/takeaway-2.png" />
+                  <source srcset="/src/img/takeaway-2.webp" type="image/webp" />
+                  <img class="takeaway-img" src="/src/img/takeaway-2.png" />
                 </picture>
               </div>
               <div class="item bg-blue">
                 <picture>
-                  <source srcset="/img/takeaway-3.webp" type="image/webp" />
-                  <img class="takeaway-img" src="/img/takeaway-3.png" />
+                  <source srcset="/src/img/takeaway-3.webp" type="image/webp" />
+                  <img class="takeaway-img" src="/src/img/takeaway-3.png" />
                 </picture>
               </div>
               <div class="item bg-purple">
                 <picture>
-                  <source srcset="/img/takeaway-4.webp" type="image/webp" />
-                  <img class="takeaway-img" src="/img/takeaway-4.png" />
+                  <source srcset="/src/img/takeaway-4.webp" type="image/webp" />
+                  <img class="takeaway-img" src="/src/img/takeaway-4.png" />
                 </picture>
               </div>
             </div>
@@ -486,7 +528,7 @@
           <div data-aos="fade-up" class="col-12 col-lg-4 mb-4">
             <div
               class="hoverbox"
-              style="background-image: url('/img/calc.webp')"
+              style="background-image: url('/src/img/calc.webp')"
               title="Your Geography Sux Bro"
             >
               <div id="hoverbox-title" class="hoverbox-title">
@@ -511,7 +553,7 @@
           <div data-aos="fade-up" class="col-12 col-lg-4 mb-4">
             <div
               class="hoverbox"
-              style="background-image: url('/img/to-do.webp')"
+              style="background-image: url('/src/img/to-do.webp')"
               title="To Do List"
             >
               <div id="hoverbox-title" class="hoverbox-title">To Do List</div>
@@ -534,7 +576,7 @@
           <div data-aos="fade-up" class="col-12 col-lg-4 mb-4">
             <div
               class="hoverbox"
-              style="background-image: url('/img/geo.webp')"
+              style="background-image: url('/src/img/geo.webp')"
               title="Your Geography Sux Bro"
             >
               <div id="hoverbox-title" class="hoverbox-title">
@@ -570,7 +612,7 @@
           <div data-aos="fade-up" class="col-12 col-lg-6 mb-4">
             <div
               class="hoverbox"
-              style="background-image: url('/img/cafc.jpg')"
+              style="background-image: url('/src/img/cafc.jpg')"
               title="CAFC Website Design"
             >
               <div id="hoverbox-title" class="hoverbox-title">CAFC</div>
@@ -593,8 +635,8 @@
           <div data-aos="fade-up" class="col-12 col-lg-6 mb-4">
             <div
               class="hoverbox"
-              style="background-image: url('/img/superg.jpg')"
-              title="The Super Website Design"
+              style="background-image: url('/src/img/superg.jpg')"
+              title="The Super Generation Website Design"
             >
               <div id="hoverbox-title" class="hoverbox-title">
                 The Super Generation
@@ -618,7 +660,7 @@
           <div data-aos="fade-left" class="col-12 col-lg-6 mb-4">
             <div
               class="hoverbox"
-              style="background-image: url('/img/leonandcroft.jpg')"
+              style="background-image: url('/src/img/leonandcroft.jpg')"
               title="Leon and Croft Website Design"
             >
               <div id="hoverbox-title" class="hoverbox-title">
@@ -643,7 +685,7 @@
           <div data-aos="fade-right" class="col-12 col-lg-6 mb-4">
             <div
               class="hoverbox"
-              style="background-image: url('/img/nigel.webp')"
+              style="background-image: url('/src/img/nigel.webp')"
               title="Nigel Cheney Website Design"
             >
               <div id="hoverbox-title" class="hoverbox-title">Nigel Cheney</div>
@@ -751,7 +793,7 @@
         <div class="row">
           <div class="col-12 col-lg-4">
             <div class="box">
-              <img src="/img/update.svg" alt="" class="icon" />
+              <img src="/src/img/update.svg" alt="" class="icon" />
               <h5 class="subhead">Easy to Update</h5>
               <p>
                 Your site will be built on the world-renowned WordPress CMS so
@@ -762,7 +804,7 @@
 
           <div class="col-12 col-lg-4">
             <div class="box">
-              <img src="/img/device.svg" alt="" class="icon" />
+              <img src="/src/img/device.svg" alt="" class="icon" />
               <h5 class="subhead">Looks good on mobile</h5>
               <p>
                 Your new website will be optimised to work on screen, tablet and
@@ -773,7 +815,7 @@
 
           <div class="col-12 col-lg-4">
             <div class="box">
-              <img src="/img/unlock.svg" alt="" class="icon" />
+              <img src="/src/img/unlock.svg" alt="" class="icon" />
               <h5 class="subhead">Secure, Safe & Compliant</h5>
               <p>
                 Your site will be secured with SSL certificate (the little lock
@@ -787,7 +829,7 @@
         <div class="row pb-5">
           <div class="col-12 col-lg-4">
             <div class="box">
-              <img src="/img/product.svg" alt="" class="icon" />
+              <img src="/src/img/product.svg" alt="" class="icon" />
               <h5 class="subhead">Lots of Features</h5>
               <p>
                 Up to 10 pages of content with other features like social media
@@ -798,7 +840,7 @@
 
           <div class="col-12 col-lg-4">
             <div class="box">
-              <img src="/img/measure.svg" alt="" class="icon" />
+              <img src="/src/img/measure.svg" alt="" class="icon" />
               <h5 class="subhead">Measurable</h5>
               <p>
                 Your organisation will be registered with Google My Business and
@@ -810,7 +852,7 @@
 
           <div class="col-12 col-lg-4">
             <div class="box">
-              <img src="/img/wrench.svg" alt="" class="icon" />
+              <img src="/src/img/wrench.svg" alt="" class="icon" />
               <h5 class="subhead">Maintained</h5>
               <p>
                 Avail of an optional maintenance package to ensure the stability
@@ -849,7 +891,7 @@
                 class="social"
               >
                 <img
-                  src="../img/linkedin.svg"
+                  src="../src/img/linkedin.svg"
                   alt="LinkedIn"
                   width="30px"
                   height="30px"
@@ -861,7 +903,7 @@
                 class="social"
               >
                 <img
-                  src="../img/github.svg"
+                  src="../src/img/github.svg"
                   alt="Github"
                   width="30px"
                   height="30px"
@@ -898,19 +940,19 @@
         >© Copyright Amber and Emerald Limited | Company Number: 663689</span
       >
     </div>
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
       crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
-    <script src="./node_modules/aos/dist/aos.js"></script>
+    ></script> -->
+    <script src="main.js"></script>
+    <!-- <script src="/node_modules/aos/dist/aos.js"></script>
     <script src="/node_modules/jquery/dist/jquery.js"></script>
-    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script> -->
 
     <script>
       AOS.init({
-        duration: 1200,
+        duration: 1000,
         disable: "mobile",
       });
 
