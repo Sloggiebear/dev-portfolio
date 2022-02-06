@@ -65,9 +65,9 @@ p a {
   position: absolute;
   color: white;
   top: 20%;
-  left: 45%;
+  left: 40%;
   z-index: 25;
-  padding-right: 1rem;
+  padding-right: 7rem;
 
   @media (max-width: 992px) {
     position: unset;
@@ -209,13 +209,13 @@ p a {
 
 .section-header {
   background-image: url(/img/bg-header.webp);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   min-height: 800px;
   clip-path: polygon(
     100% 0,
-    100% 100%,
+    100% 85%,
     90% 80%,
     81% 96%,
     67% 84%,
@@ -521,4 +521,24 @@ footer {
     transition: all ease-in-out 0.4s;
     text-shadow: 5px 5px 10px black;
   }
+}
+
+.owl-next,
+.owl-prev {
+  font-size: 2rem;
+  background-color: var(--pink) !important;
+  color: white !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.owl-nav {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-between;
 }
