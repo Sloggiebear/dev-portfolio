@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Website Design Ireland | Amber & Emerald</title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -39,7 +44,7 @@
   <body>
     <nav class="navbar navbar-expand-md fixed-top">
       <div class="container-fluid">
-        <a class="p-3 navbar-brand" href="#">
+        <a class="p-3 navbar-brand" href="/">
           <img
             id="brand-image"
             src="/img/amber-and-emerald-logo.svg"
@@ -78,7 +83,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -95,11 +100,11 @@
             <li>
               <a
                 id="start-button"
-                class="nav-link btn btn-dark px-3 mx-3 text-uppercase rounded-0"
-                href="#start"
+                class="nav-link btn btn-dark px-3 mx-3 text-uppercase rounded-0 bg-pink"
+                href="/web-design-quote-ireland.html"
                 tabindex="-1"
                 aria-disabled="true"
-                >Start Your Project</a
+                >Get a Quote</a
               >
             </li>
           </ul>
@@ -117,12 +122,11 @@
               Website Design & Web Development Ireland
             </h1>
             <h2 class="py-3 m-0 fw-bolder display-1">
-              Hey there,<br />My name is Logan
+              Hey there,<br />We design and build websites.
             </h2>
             <hr class="my-5 short-line" />
             <p class="m-0">
-              I'm a freelance frontend web developer <br />and designer based in
-              Dublin, Ireland.
+              We are an experienced designa and frontend web development firm <br />supporting customers all over Ireland.
             </p>
           </div>
         </div>
@@ -132,13 +136,134 @@
       <section class="container">
         <div class="row pb-5 my-lg-5">
           <div class="col-12 py-lg-5 pt-5" id="projects">
-            <h2 class="mt-5 subhead">Frontend Web Developer, Dublin</h2>
+            <h2 class="mt-5 subhead">Web Design and Development</h2>
             <span class="display-2 heading">Commercial Projects</span>
           </div>
         </div>
 
         <div class="row my-5 pt-5 portfolio-item">
-          <!-- BTSL NEW ZEALAND -->
+          <!-- Oatlands College -->
+          <div
+            data-aos="fade-right"
+            class="col-12 col-lg-5 offset-lg-1 order-2 order-lg-2"
+          >
+
+              <img
+                src="..\img\oatlands-college.png"
+                class="img-fluid mb-3"
+                alt="Oatlands College"
+              />
+
+            <h3 class="mb-3">Oatlands College</h3>
+            <p>
+              Oatlands College is a well-known, long-established secondary school based in South Dublin. A key challenge for this customer was the lose of access to the domain and the hosting account which we were able to solve. 
+            </p>
+            <div class="tech">
+              <p class="subhead">Technical Overview</p>
+              <p>
+                This project is another secondary school that needed work to make the site fully accessible on mobile devices. Part of the project was also upgrading the PHP version of the server and proving advice on SSL certificates and automated database and file backups. 
+              </p>
+              <span>Technologies used</span>
+              <ul>
+                <li>Wordpress</li>
+                <li>Customs HTML and SCSS</li>
+                <li>Social Media Integrations</li>
+              </ul>
+              <a
+                data-aos="fade-up"
+                href="https://oatlands.ie/"
+                class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5"
+                target="_blank"
+                >View live project</a
+              >
+            </div>
+          </div>
+
+          <!-- COIS LIFE SCHOOL WEBSITE -->
+          <div data-aos="fade-left" class="col-12 col-lg-5 order-1 order-lg-1">
+
+              <img
+                src="..\img\colaiste-cois-life.png"
+                class="img-fluid mb-3"
+                alt="The Fat Badger Restaurant"
+              />
+
+            <h3 class="mb-3">Coláiste Cois Life</h3>
+            <p>
+              Coláiste Cois Life is an all Irish second level school based in Lucan, Co. Dublin. A key element of this project was integrating the site with a pre-existing school app that allows the app and the Wordpress site to sync news items, galleries and notifications. 
+            </p>
+            <div class="tech">
+              <p class="subhead">Technical Overview</p>
+              <p>
+                This site had already been setup on Wordpress but needed redesign and responisve optimisation. We worked with the school to tease out the priorties of the main user groups and put the resources at their fingertips. 
+              </p>
+              <span>Technologies used</span>
+              <ul>
+                <li>Wordpress</li>
+                <li>Custom HTML/SCSS</li>
+                <li>Automatic School Custom App Integration</li>
+                <li>Automatic Social Media Feeds</li>
+              </ul>
+              <a
+                data-aos="fade-up"
+                href="https://colaistecoislife.ie/"
+                class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5"
+                target="_blank"
+                >View live project</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <hr class="my-5" />
+
+                <!-- Mach-Safe -->
+                <div class="row portfolio-item mb-5">
+                  <div data-aos="fade-right" class="col-12 col-lg-6 order-2 order-lg-2">
+                    <h3 class="mb-3">Mach-Safe</h3>
+                    <p>
+                      Mach-Safe provides safety and machine certification. This project was a full branding exercise where we defined designed the logo for the business first, defining typography and colours, then built the custom webiste to match.
+                    </p>
+                    <div class="tech pt-4">
+                      <p class="subhead">Technical Overview</p>
+                      <p>
+                        Responisve design and a mobile-first appraoch was key to this project as the client understood that most of his customers would visit their site from mobile devices while on site. We needed to visually communicate the services provided while providing the core information needed by the visitors. 
+                      </p>
+                      <span>Technologies used</span>
+                      <ul>
+                        <li>HTML</li>
+                        <li>SCSS</li>
+                        <li>JavaScript</li>
+                        <li>AOS Library</li>
+                        <li>Google Analytics Integrations</li>
+                      </ul>
+                      <a
+                        data-aos="fade-up"
+                        href="https://www.mach-safe.ie"
+                        class="btn btn-outline-dark rounded-0 text-uppercase mb-5 mt-3"
+                        target="_blank"
+                        >View live project</a
+                      >
+                    </div>
+                  </div>
+        
+                  <div
+                    data-aos="fade-left"
+                    class="col-12 col-lg-6 machsafe order-1 order-lg-1 mb-5 mb-lg-0"
+                  >
+                    <img
+                      src="..\img\mach-safe.png"
+                      class="img-fluid"
+                      alt="Mach-Safe"
+                    />
+                    <div class="bg-object"></div>
+                  </div>
+                </div>
+        
+                <hr class="my-5" />
+
+        <div class="row my-5 pt-5 portfolio-item">
+          <!-- BTSL -->
           <div
             data-aos="fade-right"
             class="col-12 col-lg-5 offset-lg-1 order-2 order-lg-2"
@@ -207,7 +332,7 @@
             <div class="tech">
               <p class="subhead">Technical Overview</p>
               <p>
-                These site uses WEPB image formats to reduce load time and OWL
+                This site uses WEPB image formats to reduce load time and OWL
                 carosels for responsive galleries. The structure is HTML5,
                 Bootstrap/Custom CSS and jaavscript behaviours for desktop and
                 mobile.
@@ -245,15 +370,15 @@
             <div class="tech pt-4">
               <p class="subhead">Technical Overview</p>
               <p>
-                My role was website design and front-end web development. I used
-                bootstrap for a responsive layout because I wanted to get the
-                foundations laid fast. I added custom javascript for the navbar
-                and header on scroll. I also implemented the
+                Our role was website design and front-end web development. We used
+                bootstrap for a responsive layout because we wanted to get the
+                foundations laid fast. We added custom javascript for the navbar
+                and header on scroll. We also implemented the
                 <a href="https://michalsnik.github.io/aos/" target="_blank"
                   >AOS library</a
                 >
-                to add more style and animation to the site. I worked with a
-                back end developer who specialises in Laravel, I wrote temporary
+                to add more style and animation to the site. We worked with a
+                back end developer who specialises in Laravel, we wrote temporary
                 routes before he structured the project to allow the client to
                 update the content on pages through a basic CMS
               </p>
@@ -309,7 +434,7 @@
             <div class="tech">
               <p class="subhead">Technical Overview</p>
               <p>
-                My role was to convert the Adobe XD website design files and
+                Our role was to convert the Adobe XD website design files and
                 convert them into a semantic front-end build using Bootstrap
                 with Google Analytics and Calendy integration.
               </p>
@@ -388,7 +513,7 @@
             <div class="tech">
               <p class="subhead">Technical Overview</p>
               <p>
-                My role was to use Bootstrap to write the front end of the
+                Our role was to use Bootstrap to write the front end of the
                 website with integrated store and also the backend of the admin
                 pages to allow the owner to add new products and events.
               </p>
@@ -516,7 +641,7 @@
                 and stock status.
               </p>
               <a
-                href="https://takeaway.amberandemerald.com"
+                href="https://amberandemerald.com/takeaway/index.html"
                 class="btn btn-outline-light rounded-0 text-uppercase my-3"
                 target="_blank"
                 >View live project</a
@@ -586,7 +711,7 @@
                   A simple capital city game that uses the CountryLayer API.
                 </p>
                 <a
-                  href="https://geo.amberandemerald.com"
+                  href="/countries/index.html"
                   class="btn btn-outline-light rounded-0 text-uppercase mt-3"
                   target="_blank"
                   >View live project</a
@@ -713,13 +838,13 @@
         <div class="container">
           <div class="row py-5">
             <div class="col-12 col-lg-5 offset-lg-7 py-5">
-              <span class="subhead">What I can do for you</span>
+              <span class="subhead">What we can do for you</span>
               <h2 class="display-1">Services</h2>
               <p>
-                I provide front-end web development using HTML, CSS, JavaScript
-                and React. I can also set up wordpress websites that can be
-                customised for your business. I have good attention to detail
-                and I communicate efficiently. I don't commit to projects if I
+                We provide front-end web development using HTML, CSS, JavaScript
+                and React. We can also set up wordpress websites that can be
+                customised for your business. We have good attention to detail
+                and we communicate efficiently. We don't commit to projects if I
                 cannot deliver them to a high standard.
               </p>
             </div>
@@ -740,7 +865,7 @@
               presence. The small business websites is custom designed for small
               businesses and start-ups requiring a professional business website
               with a content management system. <> Getting your business online
-              is exciting but can also be confusing. I can take care of setting
+              is exciting but can also be confusing. We can take care of setting
               up your hosting, configuring your domain name and submitting your
               new site to search engines. The
               <strong>Small Business Website Design Package</strong> is packed
@@ -869,10 +994,9 @@
           <div
             class="col-12 col-lg-8 py-5 d-flex flex-column align-self-center"
           >
-            <span class="subhead pb-3">C'mere to me</span>
+            <span class="subhead pb-3">Advice is Free</span>
             <p class="display-5">
-              You need a website and I need money. That dream house in the
-              countryside isn't going to pay for itself.
+              We always start with understanding your project and giving my advice. It's free. We love talking about design and web development and helping people with their ideas. Let's start a conversation.  
             </p>
             <hr class="my-5 short-line" />
             <a
@@ -884,7 +1008,7 @@
             <p class="subhead pt-5">Connect</p>
             <div class="d-flex">
               <a
-                href="https://www.linkedin.com/in/logan-mclain-aa2629162/"
+                href="https://www.linkedin.com/in/logan-m-aa2629162//"
                 target="_blank"
                 class="social"
               >
