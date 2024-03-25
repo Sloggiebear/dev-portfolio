@@ -8,7 +8,7 @@ window.addEventListener('scroll', event => {
     (window.scrollY >= 50) ? button.classList.add('btn-outline-light') : button.classList.remove('btn-outline-light');
     (window.scrollY <= 50) ? button.classList.add('btn-dark') : button.classList.remove('btn-dark');
     (window.scrollY >= 50) ? clipper.classList.add('straight-clip') : clipper.classList.remove('straight-clip');
-})
+})    
 
 //Show logo text on mouseover
 let brandimage = document.getElementById('brand-image');
