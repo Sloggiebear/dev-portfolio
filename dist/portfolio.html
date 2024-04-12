@@ -1,28 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-    @@include('./partials/head.html')
+    <head>
+    <!-- START Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JY69N6YYTH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-JY69N6YYTH");
+    </script>
+    <!-- END  Global site tag (gtag.js) - Google Analytics -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Website Design Ireland | Amber & Emerald</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./media/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./media/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./media/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+    <!-- <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="node_modules/aos/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/app.css" />
+</head>
+
     <body>
-        @@include('./partials/nav.html')
+        <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+        <a class="p-3 navbar-brand" href="./index.html">
+            <img id="brand-image" src="./media/amber-and-emerald-logo.svg" class="logo" width="30" height="30" alt="Amber and Emerald" />
+        </a>
+        <span class="brand-text invisible d-none d-lg-inline-block" id="brand-text">Amber and Emerald</span>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <svg style="fill: #ffffff" viewBox="0 0 100 80" width="40" height="40">
+                <rect width="100" height="10"></rect>
+                <rect y="30" width="100" height="10"></rect>
+                <rect y="60" width="100" height="10"></rect>
+            </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" tabindex="-1" aria-disabled="true">Services</a>
+                </li>
+                <li>
+                    <a id="start-button" class="nav-link btn btn-dark px-3 mx-3 text-uppercase rounded-0 bg-pink" href="./web-design-quote-ireland.html" tabindex="-1" aria-disabled="true">Get a Quote</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
         <main>
-            <header id="header" class="container-fluid section-header pt-3">
+            <header id="header" class="container-fluid page-header-bg-image pt-5">
+                <div class="overlay"></div>
+                <img class="page-header-mobile" src="./media/page-header-mobile-portfolio.jpg" alt="" />
+                <img class="page-header-desktop" src="./media/page-header-desktop-portfolio.jpg" alt="" />
                 <div class="row h-100">
                     <div class="col-12 col-lg-8 text-white p-3 p-md-5 offset-lg-1 d-flex flex-column align-self-center">
-                        <h1 class="subhead pt-5">Website Design & Web Development Ireland</h1>
-                        <span class="py-3 m-0 fw-bolder display-1">Hey there,<br />We design and build websites.</span>
-                        <hr class="my-5 short-line" />
-                        <p class="m-0">We are an experienced website design and frontend web development team <br />helping business and organisations all over Ireland.</p>
+                        <h1 class="py-3 m-0 fw-bolder display-1">Our Portfolio.</h1>
+                        <span class="subhead pb-5 text-white">Our clients trust us to help them grow their businesses.</span>
                     </div>
                 </div>
             </header>
 
             <!-- PROJECTS SECTION -->
             <section class="container">
-                <div class="row pb-5 my-lg-5">
+                <!-- <div class="row pb-5 my-lg-5">
                     <div class="col-12 py-lg-5 pt-5" id="projects">
                         <h2 class="mt-5 subhead">Web Design and Development</h2>
                         <span class="display-2 heading">Our Portfolio</span>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="row my-5 pt-5 portfolio-item">
                     <!-- Oatlands College -->
@@ -289,84 +355,6 @@
                 </div>
             </section>
 
-            <!-- PERSONAL PROJECTS SECTION -->
-            <!-- <section class="container">
-                <div class="row pb-5 my-lg-5">
-                    <div class="col-12 py-lg-5">
-                        <span class="mt-5 subhead">Website Designer and Developer, Dublin</span>
-                        <h2 class="display-1">Personal Projects</h2>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div data-aos="fade-right" class="col-12 position-relative">
-                        <div class="owl-vegan owl-carousel owl-theme">
-                            <div class="item bg-pink">
-                                <picture>
-                                    <source srcset="./media/takeaway-1.webp" type="image/webp" />
-                                    <img class="takeaway-img" src="/media/takeaway-1.png" />
-                                </picture>
-                            </div>
-                            <div class="item bg-yellow">
-                                <picture>
-                                    <source srcset="./media/takeaway-2.webp" type="image/webp" />
-                                    <img class="takeaway-img" src="/media/takeaway-2.png" />
-                                </picture>
-                            </div>
-                            <div class="item bg-blue">
-                                <picture>
-                                    <source srcset="./media/takeaway-3.webp" type="image/webp" />
-                                    <img class="takeaway-img" src="/media/takeaway-3.png" />
-                                </picture>
-                            </div>
-                            <div class="item bg-purple">
-                                <picture>
-                                    <source srcset="./media/takeaway-4.webp" type="image/webp" />
-                                    <img class="takeaway-img" src="/media/takeaway-4.png" />
-                                </picture>
-                            </div>
-                        </div>
-                        <div data-aos="fade-down" class="slider-overlay">
-                            <h3 class="mb-2">Vegan Takeaway</h3>
-                            <p>This responsive website is dynamcailly generated using vanilla javascript by importing a JSON file with product names, prices and stock status.</p>
-                            <a href="https://amberandemerald.com/takeaway/index.html" class="btn btn-outline-light rounded-0 text-uppercase my-3" target="_blank">View live project</a>
-                        </div>
-                    </div>
-                    <div data-aos="fade-up" class="col-12 col-lg-4 mb-4">
-                        <div class="hoverbox" style="background-image: url('./media/calc.webp')" title="Your Geography Sux Bro">
-                            <div id="hoverbox-title" class="hoverbox-title">React Calculator</div>
-                            <div id="hoverboxcontent" class="hoverbox-content">
-                                <h3 class="mb-2">React Calculator</h3>
-                                <p>A simple calculator built with React<br />and deployed on Firebase.</p>
-                                <a href="https://portfolio-react-calculator.web.app/" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" class="col-12 col-lg-4 mb-4">
-                        <div class="hoverbox" style="background-image: url('./media/to-do.webp')" title="To Do List">
-                            <div id="hoverbox-title" class="hoverbox-title">To Do List</div>
-                            <div id="hoverboxcontent" class="hoverbox-content">
-                                <h3 class="mb-2">Javascript To Do List</h3>
-                                <p>A canonical addition to any developer's portfolio, a standard vanilla javascript to-do list.</p>
-                                <a href="https://todo.amberandemerald.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-up" class="col-12 col-lg-4 mb-4">
-                        <div class="hoverbox" style="background-image: url('./media/geo.webp')" title="Your Geography Sux Bro">
-                            <div id="hoverbox-title" class="hoverbox-title">Your Geography Sux, Bro</div>
-                            <div id="hoverboxcontent" class="hoverbox-content">
-                                <h3 class="mb-2">Your Geography Sux, Bro</h3>
-                                <p>A simple capital city game that uses the CountryLayer API.</p>
-                                <a href="/countries/index.html" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-
             <!-- WORDPRESS PROJECTS SECTION -->
             <section class="container">
                 <div class="row pb-5 my-lg-5">
@@ -418,19 +406,6 @@
                                 <p>This Wordpress site uses WooCommerce to allow this UK-Based artist to sell his work.</p>
                                 <a href="https://www.nigelcheney.com" class="btn btn-outline-light rounded-0 text-uppercase mt-3" target="_blank">View live project</a>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SERVICES SECTION -->
-            <section id="services" class="section-services">
-                <div class="container">
-                    <div class="row py-5">
-                        <div class="col-12 col-lg-5 offset-lg-7 py-5">
-                            <span class="subhead">What we can do for you</span>
-                            <h2 class="display-1">Services</h2>
-                            <p>We provide front-end web development using HTML, CSS, JavaScript and React. We can also set up wordpress websites that can be customised for your business. We have good attention to detail and we communicate efficiently. We don't commit to projects if I cannot deliver them to a high standard.</p>
                         </div>
                     </div>
                 </div>
@@ -574,6 +549,79 @@
             </section>
         </main>
 
-        @@include('./partials/footer.html') @@include('./partials/scripts.html')
+        <footer>
+    <div id="footer" class="container py-5">
+        <div class="row pt-5">
+            <div class="col-12 col-lg-8 py-5 d-flex flex-column align-self-center">
+                <span class="subhead pb-3">Advice is Free</span>
+                <p class="display-5">We always start with understanding your project and giving my advice. It's free. We love talking about design and web development and helping people with their ideas. Let's start a conversation.</p>
+                <hr class="my-5 short-line" />
+                <a class="text-white display-6" href="mailto:info@amberandemerald.com">info@amberandemerald.com</a>
+                <p class="text-muted">+353 (0)83 13 44 883</p>
+                <p class="subhead pt-5">Connect</p>
+                <div class="d-flex">
+                    <a href="https://www.linkedin.com/in/logan-m-aa2629162/" target="_blank" class="social">
+                        <img src="./media/linkedin.svg" alt="LinkedIn Logo" width="30px" height="30px" />
+                    </a>
+                    <a href="https://github.com/Sloggiebear" target="_blank" class="social">
+                        <img src="./media/github.svg" alt="Github Logo" width="30px" height="30px" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 d-lg-flex align-items-end justify-content-end">
+                <div class="text-center">
+                    <a href="https://www.greengeeks.com/track/amberemerald" onclick="ggs_ggseal()"> <img class="p-2 scale" alt="greengeeks" src="https://static.greengeeks.com/ggseal/Green_12.png" /></a>
+                    <script>
+                        function ggs_ggseal() {
+                            window.open("https://my.greengeeks.com/seal/", "_blank");
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="subfooter">
+    <span>© Copyright Amber and Emerald Limited | Company Number: 663689</span>
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+<script src="./scripts/index.js"></script>
+<!-- <script src="./node_modules/aos/dist/aos.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="/node_modules/jquery/dist/jquery.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script>
+    AOS.init({
+        duration: 1000,
+        disable: "mobile",
+    });
+
+    $(document).ready(function () {
+        $(".owl-altra").owlCarousel({
+            items: 1,
+            nav: true,
+            loop: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 250,
+            lazyLoad: true,
+            autoplayHoverPause: true,
+        });
+
+        $(".owl-vegan").owlCarousel({
+            items: 1,
+            loop: true,
+            dots: true,
+            dotsEach: true,
+            autoplay: true,
+            autoplaySpeed: 250,
+            animateOut: "fadeOut",
+        });
+    });
+</script>
+
     </body>
 </html>
