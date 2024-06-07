@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('./partials/head.html')
+    <body>
+        @@include('./partials/nav.html')
+        <main>
+            <header id="header" class="container-fluid page-header-bg-image pt-5">
+                <div class="overlay"></div>
+                <img class="page-header-mobile" src="./media/page-header-mobile-portfolio.jpg" alt="" />
+                <img class="page-header-desktop" src="./media/page-header-desktop-portfolio.jpg" alt="" />
+                <div class="row h-100">
+                    <div class="col-12 col-lg-8 text-white p-3 p-md-5 offset-lg-1 d-flex flex-column align-self-center">
+                        <h1 class="py-3 m-0 fw-bolder display-1">The Tuition Centre</h1>
+                        <span class="subhead pb-5 text-white">HELPING IRELAND'S BIGGEST ONLINE GRIND SCHOOL TO GROW.</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- PROJECTS SECTION -->
+            <section class="container">
+                <!-- <div class="row pb-5 my-lg-5">
+                    <div class="col-12 py-lg-5 pt-5" id="projects">
+                        <h2 class="mt-5 subhead">Web Design and Development</h2>
+                        <span class="display-2 heading">Our Portfolio</span>
+                    </div>
+                </div> -->
+
+                <div class="row my-5 pt-5 portfolio-item">
+                    <div data-aos="fade-right" class="col-12 col-lg-6">
+                        <h2 class="mb-3">Logo and Branding</h2>
+                        <p>We worked with the Tuition Centre to develop a new visual identity to convey their expanding online presence. The logo communicates the company's vision of providing effective education in an online enviroment, serving their customers all over Ireland. Keeping the colour scheme of their old logo, we developed a logo and set of brand guidelines for print and web design to ensure brand recogition and consistency.</p>
+                    </div>
+
+                    <div data-aos="fade-left" class="col-12 col-lg-6 order-1 order-lg-1">
+                        <img src="./media/placeholder-square.jpg" class="img-fluid mb-3" alt="The Tuition Centre Logo" />
+                    </div>
+                </div>
+                <div class="row my-5 pt-5 portfolio-item">
+                    <div data-aos="fade-right" class="col-12 col-lg-6">
+                        <ul>
+                            <li>Custom HTML, SCSS and Javascript</li>
+                            <li>Support for Math Latex for mathematical equation rendering</li>
+                            <li>Integrations with Learnworlds LMS for Analytics, Zoom and Stripe</li>
+                            <li>Content Migration</li>
+                            <li>Custom search via API</li>
+                            <li>Printed materials with Trackable QR codes</li>
+                        </ul>
+                    </div>
+
+                    <div data-aos="fade-left" class="col-12 col-lg-6 order-1 order-lg-1">
+                        <img src="./media/colaiste-cois-life.png" class="img-fluid mb-3" alt="Coláiste Cois Life" />
+
+                        <h3 class="mb-3">Soical Media</h3>
+                        <p>After establishing brand guidelines, we worked on developing a series of engaging social media images. We Partnered with a Social Media specialist and increased subscribership, engagement and sales across the comany's product range</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        @@include('./partials/footer.html') @@include('./partials/scripts.html')
+    </body>
+</html>

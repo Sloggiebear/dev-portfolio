@@ -1,3 +1,5 @@
+// require('../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'); 
+
 //Change nav style on scroll
 window.addEventListener('scroll', event => {
     let nav = document.querySelector('nav');
@@ -16,7 +18,6 @@ let brandtext = document.getElementById("brand-text");
 
 brandimage.addEventListener('mouseover', event => {
     brandtext.classList.toggle('invisible');
-    
 })
 brandimage.addEventListener('mouseout', event => {
     brandtext.classList.toggle('invisible');

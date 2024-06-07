@@ -25,12 +25,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./media/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link type="text/html" rel="stylesheet" href="../../node_modules/boostrap/dist/css/bootstrap.min.css" crossorigin="anonymous" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" /> -->
 
-    <!-- <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- <link rel="stylesheet" href="node_modules/aos/dist/aos.css" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link type="text/html" rel="stylesheet" href="../node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+    <link type="text/html" rel="stylesheet" href="../node_modules/aos/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
     <link rel="stylesheet" href="./styles/app.css" />
 </head>
 
@@ -61,7 +64,7 @@
                     <a class="nav-link" href="#services" tabindex="-1" aria-disabled="true">Services</a>
                 </li>
                 <li>
-                    <a id="start-button" class="nav-link btn btn-dark px-3 mx-3 text-uppercase rounded-0 bg-pink" href="./web-design-quote-ireland.html" tabindex="-1" aria-disabled="true">Get a Quote</a>
+                    <a id="start-button" class="nav-link btn btn-dark px-3 mx-3 text-uppercase rounded-0 bg-green-500" href="./web-design-quote-ireland.html" tabindex="-1" aria-disabled="true">Get a Quote</a>
                 </li>
             </ul>
         </div>
@@ -72,10 +75,10 @@
             <header id="header" class="container-fluid section-header pt-3">
                 <div class="row h-100">
                     <div class="col-12 col-lg-8 text-white p-3 p-md-5 offset-lg-1 d-flex flex-column align-self-center">
-                        <h1 class="subhead pt-5">Website Design & Web Development Ireland</h1>
-                        <span class="py-3 m-0 fw-bolder display-1">Hey there,<br />We design and build websites.</span>
+                        <h1 class="subhead mt-5 text-highlight-green">Website Design & Web Development Ireland | Get a Free Quote</h1>
+                        <span class="py-3 m-0 fw-bolder display-1">We design and build engaging websites.</span>
                         <hr class="my-5 short-line" />
-                        <p class="m-0">We are an experienced website design and frontend web development team <br />helping business and organisations all over Ireland.</p>
+                        <p class="m-0">We are an experienced website design and frontend web development team <br />helping business to grow. We also love plants!</p>
                     </div>
                 </div>
             </header>
@@ -85,271 +88,17 @@
                 <div class="row pb-5 my-lg-5">
                     <div class="col-12 py-lg-5 pt-5" id="projects">
                         <h2 class="mt-5 subhead">Web Design and Development</h2>
-                        <span class="display-2 heading">Our Portfolio</span>
+                        <span class="display-2 heading">Our Clients</span>
                     </div>
                 </div>
+            </section>
 
-                <div class="row my-5 pt-5 portfolio-item">
-                    <!-- Oatlands College -->
-                    <div data-aos="fade-right" class="col-12 col-lg-5 offset-lg-1 order-2 order-lg-2">
-                        <img src="./media/oatlands-college.png" class="img-fluid mb-3" alt="Oatlands College" />
-
-                        <h3 class="mb-3">Oatlands College</h3>
-                        <p>Oatlands College is a well-known, long-established secondary school based in South Dublin. A key challenge for this customer was the lose of access to the domain and the hosting account which we were able to solve.</p>
-                        <div class="tech">
-                            <p class="subhead">Technical Overview</p>
-                            <p>This project is another secondary school that needed work to make the site fully accessible on mobile devices. Part of the project was also upgrading the PHP version of the server and proving advice on SSL certificates and automated database and file backups.</p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>Wordpress</li>
-                                <li>Customs HTML and SCSS</li>
-                                <li>Social Media Integrations</li>
-                            </ul>
-                            <a data-aos="fade-up" href="https://oatlands.ie/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
-                        </div>
-                    </div>
-
-                    <!-- COIS LIFE SCHOOL WEBSITE -->
-                    <div data-aos="fade-left" class="col-12 col-lg-5 order-1 order-lg-1">
-                        <img src="./media/colaiste-cois-life.png" class="img-fluid mb-3" alt="Coláiste Cois Life" />
-
-                        <h3 class="mb-3">Coláiste Cois Life</h3>
-                        <p>Coláiste Cois Life is an all Irish second level school based in Lucan, Co. Dublin. A key element of this project was integrating the site with a pre-existing school app that allows the app and the Wordpress site to sync news items, galleries and notifications.</p>
-                        <div class="tech">
-                            <p class="subhead">Technical Overview</p>
-                            <p>This site had already been setup on Wordpress but needed redesign and responisve optimisation. We worked with the school to tease out the priorties of the main user groups and put the resources at their fingertips.</p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>Wordpress</li>
-                                <li>Custom HTML/SCSS</li>
-                                <li>Automatic School Custom App Integration</li>
-                                <li>Automatic Social Media Feeds</li>
-                            </ul>
-                            <a data-aos="fade-up" href="https://colaistecoislife.ie/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr class="my-5" />
-
-                <!-- Mach-Safe -->
-                <div class="row portfolio-item mb-5">
-                    <div data-aos="fade-right" class="col-12 col-lg-6 order-2 order-lg-2">
-                        <h3 class="mb-3">Mach-Safe</h3>
-                        <p>Mach-Safe provides safety and machine certification. This project was a full branding exercise where we defined designed the logo for the business first, defining typography and colours, then built the custom webiste to match.</p>
-                        <div class="tech pt-4">
-                            <p class="subhead">Technical Overview</p>
-                            <p>Responisve design and a mobile-first appraoch was key to this project as the client understood that most of his customers would visit their site from mobile devices while on site. We needed to visually communicate the services provided while providing the core information needed by the visitors.</p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JavaScript</li>
-                                <li>AOS Library</li>
-                                <li>Google Analytics Integrations</li>
-                            </ul>
-                            <a data-aos="fade-up" href="https://www.mach-safe.ie" class="btn btn-outline-dark rounded-0 text-uppercase mb-5 mt-3" target="_blank">View live project</a>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-left" class="col-12 col-lg-6 machsafe order-1 order-lg-1 mb-5 mb-lg-0">
-                        <img src="./media/mach-safe.png" class="img-fluid" alt="Mach-Safe" />
-                        <div class="bg-object"></div>
-                    </div>
-                </div>
-
-                <hr class="my-5" />
-
-                <div class="row my-5 pt-5 portfolio-item">
-                    <!-- BTSL -->
-                    <div data-aos="fade-right" class="col-12 col-lg-5 offset-lg-1 order-2 order-lg-2">
-                        <picture>
-                            <source srcset="./media/btsl-nz.webp" type="image/webp" />
-                            <source srcset="./media/btsl-nz.jpg" type="image/jpeg" />
-                            <img src="./media/btsl-nz.png" class="img-fluid mb-3" alt="BTSL New Zealand" />
-                        </picture>
-                        <h3 class="mb-3">Building Tendering Service Ltd.</h3>
-                        <p>BTSL are one of New Zealand's largest construction tendering sites providing a digital platform for contracters.</p>
-                        <div class="tech">
-                            <p class="subhead">Technical Overview</p>
-                            <p>Bootstrap/SCSS and Javascript used to create user interfaces for features like document uploads/management and project searches. The UIs made use of modals and expandable elements for optimal organisation.</p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                            <a data-aos="fade-up" href="https://workdesk.btsl.co.nz/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
-                        </div>
-                    </div>
-
-                    <!-- THE FAT BADGER RESTAURANT -->
-                    <div data-aos="fade-left" class="col-12 col-lg-5 order-1 order-lg-1">
-                        <picture>
-                            <source srcset="./media/the-fat-badger-restaurant.webp" type="image/webp" />
-                            <source srcset="./media/the-fat-badger-restaurant.jpgp" type="image/jpeg" />
-                            <img src="./media/the-fat-badger-restaurant.jpg" class="img-fluid mb-3" alt="The Fat Badger Restaurant" />
-                        </picture>
-                        <h3 class="mb-3">The Fat Badger Restaurant</h3>
-                        <p>The Fat Badger Restaurant is one of the many UK-based resturants owned and operated by the Gladwin Brothers.</p>
-                        <div class="tech">
-                            <p class="subhead">Technical Overview</p>
-                            <p>This site uses WEPB image formats to reduce load time and OWL carosels for responsive galleries. The structure is HTML5, Bootstrap/Custom CSS and jaavscript behaviours for desktop and mobile.</p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>HTML/SCSS</li>
-                                <li>OWL JS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                            <a data-aos="fade-up" href="https://www.thefatbadger-restaurant.com/" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View live project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr class="my-5" />
-
-                <!-- FLEX POWER SOLUTIONS -->
-                <div class="row portfolio-item mb-5">
-                    <div data-aos="fade-right" class="col-12 col-lg-6 order-2 order-lg-1">
-                        <h3 class="mb-3">Flex Power Solutions</h3>
-                        <p>This Irish company are on a mission to make a cleaner, energy-efficient future for Ireland. Flex Power Solutions needed a website design to communicate the benefits of diverting excess renewable energy into high-efficiency heat and steam generation.</p>
-                        <div class="tech pt-4">
-                            <p class="subhead">Technical Overview</p>
-                            <p>
-                                Our role was website design and front-end web development. We used bootstrap for a responsive layout because we wanted to get the foundations laid fast. We added custom javascript for the navbar and header on scroll. We also implemented the
-                                <a href="https://michalsnik.github.io/aos/" target="_blank">AOS library</a>
-                                to add more style and animation to the site. We worked with a back end developer who specialises in Laravel, we wrote temporary routes before he structured the project to allow the client to update the content on pages through a basic CMS
-                            </p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JavaScript</li>
-                            </ul>
-                            <a data-aos="fade-up" href="https://www.flexpowersolutions.com/" class="btn btn-outline-dark rounded-0 text-uppercase mb-5 mt-3" target="_blank">View live project</a>
-                        </div>
-                    </div>
-
-                    <div data-aos="fade-left" class="col-12 col-lg-6 flexpower order-1 order-lg-2 mb-5 mb-lg-0">
-                        <img src="./media/flex-power-solutions.png" class="img-fluid" alt="Flex Power Solutions" />
-                        <div class="bg-object"></div>
-                    </div>
-                </div>
-
-                <hr class="my-5" />
-
-                <div class="row my-5 pt-5 portfolio-item">
-                    <!-- HELLO ALTRA -->
-                    <div data-aos="fade-right" class="col-12 col-lg-5">
-                        <picture> <img src="./media/hello-altra.png" class="img-fluid" alt="Hello Altra" /> </picture>
-                        <div class="bg-object"></div>
-                        <h3 class="mb-3">Hello Altra</h3>
-                        <p>Altra needed a website with a fast load speed to inform their clients of a new web app they developed for the nursing home sector.</p>
-                        <div class="tech">
-                            <p class="subhead">Technical Overview</p>
-                            <p>Our role was to convert the Adobe XD website design files and convert them into a semantic front-end build using Bootstrap with Google Analytics and Calendy integration.</p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                            <button data-bs-toggle="modal" data-bs-target="#altraModal" data-aos="fade-up" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5">View project</button>
-                        </div>
-                    </div>
-
-                    <!-- Altra Modal -->
-                    <div class="modal fade" id="altraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="title">Hello Altra Website</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="owl-altra owl-carousel owl-theme">
-                                        <div class="item">
-                                            <picture>
-                                                <source srcset="./media/altra-1.webp" type="image/webp" />
-                                                <img src="/media/altra-1.png" />
-                                            </picture>
-                                        </div>
-                                        <div class="item">
-                                            <picture>
-                                                <source srcset="./media/altra-2.webp" type="image/webp" />
-                                                <img src="/media/altra-2.png" />
-                                            </picture>
-                                        </div>
-                                        <div class="item">
-                                            <picture>
-                                                <source srcset="./media/altra-3.webp" type="image/webp" />
-                                                <img src="/media/altra-3.png" />
-                                            </picture>
-                                        </div>
-                                        <div class="item">
-                                            <picture>
-                                                <source srcset="./media/altra-4.webp" type="image/webp" />
-                                                <img src="/media/altra-4.png" />
-                                            </picture>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- BROMPTON -->
-                    <div data-aos="fade-left" class="col-12 col-lg-5 offset-lg-1">
-                        <picture> <img src="./media/bromton-wine.webp" class="img-fluid pb-2" alt="Brompton WIne" /> </picture>
-                        <div class="bg-object"></div>
-                        <h3 class="mb-3">Bromptom Wine</h3>
-                        <p>A UK-based winery selling products and services including training.</p>
-                        <div class="tech">
-                            <p class="subhead">Technical Overview</p>
-                            <p>Our role was to use Bootstrap to write the front end of the website with integrated store and also the backend of the admin pages to allow the owner to add new products and events.</p>
-                            <span>Technologies used</span>
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                            </ul>
-                            <a data-aos="fade-up" href="https://www.bromptonwine.co.uk" class="btn btn-outline-dark rounded-0 text-uppercase mt-3 mb-5" target="_blank">View Live project</a>
-                        </div>
-                    </div>
-                </div>
-
-                <hr class="my-5" />
-
-                <!-- GRADIENT -->
-                <div class="row portfolio-item">
-                    <div data-aos="fade-right" class="col-12 col-lg-6 order-2 order-lg-1">
-                        <h3 class="mb-3">Gradient</h3>
-                        <p>The National College of Art and Design uses an alpha grade system for their assessments. This easy-to-use tool allows staff to save time by calculating the overall average grade for up to four assessment criteria.</p>
-                        <span class="subhead">Technical Overview</span>
-                        <p>
-                            Gradient is a simple javascript calculator. It began as a spreadsheet to make assessments quicker and more accurate. That was later developed into its first form of
-                            <a href="http://gradey.loganmclain.com/">Gradey+</a>. Gradient was devloped from that when the layout was redesigned to be mobile-friendly.
-                        </p>
-
-                        <span>Technologies used</span>
-                        <div class="tech">
-                            <ul>
-                                <li>HTML</li>
-                                <li>SCSS</li>
-                                <li>JavaScript</li>
-                            </ul>
-                        </div>
-                        <a data-aos="fade-up" href="https://gradient.loganmclain.com/" class="btn btn-outline-dark rounded-0 text-uppercase my-2" target="_blank">View live project</a>
-                        <a data-aos="fade-up" href="https://github.com/Sloggiebear/Gradient" class="btn btn-outline-dark rounded-0 text-uppercase m-2" target="_blank">View on Github</a>
-                    </div>
-
-                    <div data-aos="fade-left" class="col-12 col-lg-6 gradient order-1 order-lg-2">
-                        <img src="./media/gradient-screens.png" class="img-fluid" alt="Gradient" />
-                        <div class="bg-object"></div>
+            <!-- TESTIMONIALS SECTION -->
+            <section class="container">
+                <div class="row pb-5 my-lg-5">
+                    <div class="col-12 py-lg-5 pt-5" id="projects">
+                        <h2 class="mt-5 subhead">Trusted and Reliable Web Development and Design</h2>
+                        <span class="display-2 heading">What Our Clients Say</span>
                     </div>
                 </div>
             </section>
@@ -366,7 +115,7 @@
                 <div class="row">
                     <div data-aos="fade-right" class="col-12 position-relative">
                         <div class="owl-vegan owl-carousel owl-theme">
-                            <div class="item bg-pink">
+                            <div class="item bg-green-300">
                                 <picture>
                                     <source srcset="./media/takeaway-1.webp" type="image/webp" />
                                     <img class="takeaway-img" src="/media/takeaway-1.png" />
@@ -433,7 +182,7 @@
             </section> -->
 
             <!-- WORDPRESS PROJECTS SECTION -->
-            <section class="container">
+            <!-- <section class="container">
                 <div class="row pb-5 my-lg-5">
                     <div class="col-12 py-lg-5">
                         <span class="mt-5 subhead">Wordpress Website Designer and Developer, Ireland</span>
@@ -486,7 +235,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!-- SERVICES SECTION -->
             <section id="services" class="section-services">
@@ -583,7 +332,7 @@
             </section>
 
             <!-- LATEST NEWS SECTION -->
-            <section class="container">
+            <!-- <section class="container">
                 <div class="row pb-5 my-lg-5">
                     <div class="col-12 py-lg-5">
                         <span class="mt-5 subhead">Wordpress Website Designer and Developer, Ireland</span>
@@ -636,7 +385,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
         </main>
 
         <footer>
@@ -674,16 +423,21 @@
 <div class="subfooter">
     <span>© Copyright Amber and Emerald Limited | Company Number: 663689</span>
 </div>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-<script src="./scripts/index.js"></script>
-<!-- <script src="./node_modules/aos/dist/aos.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- <script src="/node_modules/jquery/dist/jquery.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<!-- <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+ <script type="text/html" src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script type="text/html" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script> -->
 
-<script>
+<script type="text/html" src="../../node_modules/aos/dist/aos.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<script type="text/html" src="../../node_modules/jquery/dist/jquery.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+<script type="text/html" src="../../node_modules/owl.carousel/dist/owl.carousel.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> -->
+
+<script src="./scripts/index.js"></script>
+
+<!-- <script>
     AOS.init({
         duration: 1000,
         disable: "mobile",
@@ -711,7 +465,7 @@
             animateOut: "fadeOut",
         });
     });
-</script>
+</script> -->
 
     </body>
 </html>
