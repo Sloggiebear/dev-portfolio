@@ -94,6 +94,10 @@ p a {
     .btn-outline-light {
       color: #212529;
       border-color: #212529;
+
+      &:hover {
+        color: #212529;
+      }
     }
   }
 }
@@ -137,10 +141,10 @@ p a {
   }
 
   .box {
-    border-left: 2px solid var(--pink);
+    border-left: 5px solid #F7DAD9;
     min-height: unset !important;
     margin-bottom: 20px;
-    box-shadow: -1px -1px 11px 3px #d0d0d0;
+    box-shadow: -1px -1px 11px 3px #d0d0d0b7;
   }
 }
 
@@ -156,6 +160,16 @@ p a {
     padding: 20px;
     background-color: transparent;
     transition: all 0.5s ease-in-out;
+
+    .nav-link {
+      color: white !important;
+    }
+
+    #start-button {
+      &:hover {
+        color: black;
+      }
+    }
 
     ul {
       display: flex;
@@ -267,8 +281,12 @@ p a {
 
 }
 
+.home-header {
+  background-color: #113d1883;
+}
+
 .section-services {
-  background-color: rgb(233, 233, 233);
+  background-color: #F7DAD9;
   background-image: url("../media/amber-and-emerald-logo.svg");
   background-repeat: no-repeat;
   background-size: 600px;
@@ -291,6 +309,8 @@ p {
   text-transform: uppercase;
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
+  font-weight: 700;
+  width: fit-content;
 }
 
 .text-highlight-green {
@@ -306,7 +326,7 @@ p {
 }
 
 footer {
-  background-color: rgb(51, 51, 51);
+  background-color: #2D4739;
   color: white;
 
   p {
@@ -545,7 +565,7 @@ footer {
 
 .draw-out {
   fill: transparent;
-  stroke: #4e4e4e;
+  stroke: #566246;
   stroke-width: 1px;
   stroke-dasharray: 2040px;
   stroke-dashoffset: -2040px;
@@ -553,8 +573,8 @@ footer {
 }
 
 .draw-in {
-  fill: #4e4e4e;
-  stroke: #4e4e4e;
+  fill: #566246;
+  stroke: #566246;
   stroke-dashoffset: 0px;
   transition: stroke-dashoffset 2.5s linear, fill 0.8s ease 2s;
 }
@@ -580,8 +600,9 @@ footer {
   padding: 30px;
 
   &:hover {
-    box-shadow: -1px -1px 11px 3px #d0d0d0;
+    // box-shadow: -1px -1px 11px 3px #d0d0d0;
     transform: translate(0px, -20px);
+    background-color: #F7DAD9;
 
     .icon {
       fill: var(--green-500);
@@ -739,8 +760,4 @@ footer {
       min-height: 800px;
     }
   }
-}
-
-.nav-link {
-  color: white !important;
 }
